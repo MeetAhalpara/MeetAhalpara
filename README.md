@@ -18,66 +18,73 @@ My work spans AI applications, cloud infrastructure automation, database systems
 
 Currently exploring:
 
-• Artificial Intelligence & Machine Learning  
-• Cloud Systems (AWS / Azure)  
-• Backend Development & REST APIs  
-• Data Analytics & Business Intelligence  
-• DevOps & CI/CD Automation  
-• Android Application Development  
-• Networking Analysis  
+‣ Artificial Intelligence & Machine Learning  
+‣ Cloud Systems (AWS / Azure)  
+‣ Backend Development & REST APIs  
+‣ Data Analytics & Business Intelligence  
+‣ DevOps & CI/CD Automation  
+‣ Android Application Development  
+‣ Networking Analysis  
 
 ---
 
 ## 🛠 Technical Skills
 
 ### Programming Languages
-Java  
-Python  
-JavaScript  
-TypeScript  
-SQL  
-Kotlin  
-Dart  
+
+‣ Java  
+‣ Python  
+‣ JavaScript  
+‣ TypeScript  
+‣ SQL  
+‣ Kotlin  
+‣ Dart  
 
 ### Frameworks & Libraries
-Flask  
-TensorFlow  
-Keras  
-React  
-JavaFX  
+
+‣ Flask  
+‣ TensorFlow  
+‣ Keras  
+‣ React  
+‣ JavaFX  
 
 ### Databases
-MySQL  
-SQLite  
-Oracle Database  
-MongoDB  
-PostgreSQL  
-Supabase (Cloud Database)
+
+‣ MySQL  
+‣ SQLite  
+‣ Oracle Database  
+‣ MongoDB  
+‣ PostgreSQL  
+‣ Supabase (Cloud Database)
 
 ### Cloud & DevOps
-AWS  
-Azure  
-Docker  
-Jenkins  
-GitHub Actions  
-CI/CD Pipelines  
+
+‣ AWS  
+‣ Azure  
+‣ Docker  
+‣ Jenkins  
+‣ GitHub Actions  
+‣ CI/CD Pipelines  
 
 ### Development Tools
-IntelliJ IDEA  
-VS Code  
-Android Studio  
-PyCharm  
-RapidMiner  
-SSMS  
-SceneBuilder  
-VMware  
+
+‣ IntelliJ IDEA  
+‣ VS Code  
+‣ Android Studio  
+‣ PyCharm  
+‣ RapidMiner  
+‣ SSMS  
+‣ SceneBuilder  
+‣ VMware  
 
 ### Operating Systems
-Linux  
-Windows  
+
+‣ Linux  
+‣ Windows  
 
 ### Networking Tools
-Wireshark  
+
+‣ Wireshark  
 
 ---
 
@@ -91,11 +98,11 @@ Automated cloud infrastructure workflow using AWS virtual machines and scheduled
 
 Project Architecture:
 
-• Two virtual machines communicate securely using SSH  
-• Cron jobs automate startup and execution scheduling  
-• File transfer between VMs occurs automatically  
-• System logs execution time of remote program  
-• Infrastructure shuts down automatically to optimize cloud cost  
+‣ Two virtual machines communicate securely using SSH  
+‣ Cron jobs automate startup and execution scheduling  
+‣ File transfer between VMs occurs automatically  
+‣ System logs execution time of remote program  
+‣ Infrastructure shuts down automatically to optimize cloud cost  
 
 Workflow:
 
@@ -115,11 +122,11 @@ AI-powered Discord bot that recommends movies using IMDB datasets and Gemini AI 
 
 Features:
 
-• Retrieves movie information from IMDB dataset  
-• Interacts with users through Discord commands  
-• Analyzes user preferences  
-• Uses Gemini AI to interpret user responses  
-• Generates personalized movie recommendations  
+‣ Retrieves movie information from IMDB dataset  
+‣ Interacts with users through Discord commands  
+‣ Analyzes user preferences  
+‣ Uses Gemini AI to interpret user responses  
+‣ Generates personalized movie recommendations  
 
 Tech Stack:
 
@@ -135,16 +142,16 @@ Machine learning and data analytics project applying multiple algorithms for cla
 
 Algorithms Implemented:
 
-• K-Nearest Neighbors (KNN)  
-• Decision Trees  
-• K-Means Clustering  
-• Outlier Detection  
+‣ K-Nearest Neighbors (KNN)  
+‣ Decision Trees  
+‣ K-Means Clustering  
+‣ Outlier Detection  
 
 Focus Areas:
 
-• data preprocessing  
-• pattern discovery  
-• predictive modeling  
+‣ Data preprocessing  
+‣ Pattern discovery  
+‣ Predictive modeling  
 
 Technologies:
 
@@ -160,11 +167,11 @@ Java-based backend application that manages public transport vehicle data using 
 
 System Features:
 
-• Java backend with JDBC database connectivity  
-• CRUD operations for fleet management  
-• backend service layer implementation  
-• REST API integration  
-• API testing and endpoint validation  
+‣ Java backend with JDBC database connectivity  
+‣ CRUD operations for fleet management  
+‣ Backend service layer implementation  
+‣ REST API integration  
+‣ API testing and endpoint validation  
 
 Technologies:
 
@@ -180,10 +187,10 @@ Implemented continuous integration workflows in team-based development environme
 
 Key Practices:
 
-• Git-based version control and branch management  
-• CI pipelines that automatically build and test projects after commits  
-• automated notifications to team members on build success or failure  
-• collaborative debugging and issue resolution  
+‣ Git-based version control and branch management  
+‣ CI pipelines that automatically build and test projects after commits  
+‣ Automated notifications to team members on build success or failure  
+‣ Collaborative debugging and issue resolution  
 
 As team lead, I configured automated notifications that send email alerts for CI pipeline results to maintain transparency and accountability across the development team.
 
@@ -205,12 +212,12 @@ Aug 2019 – Jun 2022
 
 ## 📜 Certifications
 
-AWS Educate – Introduction to Cloud 101  
-Microsoft – Describe Cloud Computing  
-AWS Certified Cloud Practitioner (CLF-C02) Certification Preparation  
-LinkedIn Learning – Software Architecture Patterns  
-LinkedIn Learning – Agile Software Development  
-LinkedIn Learning – Software Testing Foundations  
+‣ AWS Educate – Introduction to Cloud 101  
+‣ Microsoft – Describe Cloud Computing  
+‣ AWS Certified Cloud Practitioner (CLF-C02) Certification Preparation  
+‣ LinkedIn Learning – Software Architecture Patterns  
+‣ LinkedIn Learning – Agile Software Development  
+‣ LinkedIn Learning – Software Testing Foundations  
 
 Currently preparing for AWS Cloud Practitioner Certification.
 
