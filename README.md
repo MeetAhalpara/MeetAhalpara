@@ -8,7 +8,7 @@ Software Developer | AI | Cloud | Data Systems | DevOps | Mobile Development
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 Software developer with experience in artificial intelligence, backend systems, cloud infrastructure, and data analytics.
 
@@ -28,7 +28,7 @@ Currently exploring:
 
 ---
 
-## 🛠 Technical Skills
+## Technical Skills
 
 ### Programming Languages
 
@@ -88,7 +88,7 @@ Currently exploring:
 
 ---
 
-# 🚀 Featured Projects
+# Featured Projects
 
 ---
 
@@ -99,14 +99,14 @@ Automated cloud infrastructure workflow using AWS virtual machines and scheduled
 Project Architecture:
 
 ‣ Two virtual machines communicate securely using SSH  
-‣ Cron jobs automate startup and execution scheduling  
-‣ File transfer between VMs occurs automatically  
-‣ System logs execution time of remote program  
-‣ Infrastructure shuts down automatically to optimize cloud cost  
+‣ Cron jobs orchestrate VM startup and execution timing  
+‣ File transfer occurs between VMs via secure SSH connection  
+‣ Execution logs record program run time  
+‣ Cron-based shutdown scheduling helps control cloud resource usage
 
 Workflow:
 
-VM1 starts → transfers file → VM2 executes program → logs execution → both VMs shutdown automatically.
+VM1 starts via cron → transfers file to VM2 using SSH → VM2 executes the program → execution time logged → both VMs shut down via scheduled cron tasks.
 
 Tech Stack:
 
@@ -181,7 +181,7 @@ Java | JDBC | SQL Database | REST APIs
 
 ---
 
-## ⚙️ DevOps & Collaboration Experience
+## DevOps & Collaboration Experience
 
 Implemented continuous integration workflows in team-based development environments.
 
@@ -196,7 +196,7 @@ As team lead, I configured automated notifications that send email alerts for CI
 
 ---
 
-## 🎓 Education
+## Education
 
 Computer Programming and Analysis  
 Algonquin College  
@@ -210,7 +210,7 @@ Aug 2019 – Jun 2022
 
 ---
 
-## 📜 Certifications
+## Certifications
 
 ‣ AWS Educate – Introduction to Cloud 101  
 ‣ Microsoft – Describe Cloud Computing  
@@ -222,9 +222,3 @@ Aug 2019 – Jun 2022
 Currently preparing for AWS Cloud Practitioner Certification.
 
 ---
-
-## 📫 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/meetahalpara/)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/MeetAhalpara)
-[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:Meetahalpara1@gmail.com)
