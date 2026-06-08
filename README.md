@@ -43,31 +43,31 @@ From leading full-lifecycle web development workflows during my software enginee
 An end-to-end data warehousing pipeline built to process historical financial transaction streams, engineer predictive risk default logic, and surface actionable insights through Power BI dashboards.
 * **Core Tasks:** Developed SSIS ETL migration workflows, structured historical database schemas inside SSMS, integrated external regional economic metrics, and designed risk visibility panels.
 * **Tech Stack:** T-SQL | SSIS | SSMS | Power BI
-* **Source:** [View Repository](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-green?style=flat-square&logo=github)](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
 
 ### Java Enterprise Public Transport Fleet Management System
 A multi-tier web platform engineered with Java Servlets and JDBC components, utilizing strict Data Access Object (DAO) and Factory software design patterns to ensure modular database scalability.
 * **Core Tasks:** Separated presentation layers from backend business logic, implemented custom relational database connections, and validated system route endpoints natively inside development browsers.
 * **Tech Stack:** Java | JDBC | MySQL | Servlets | REST APIs
-* **Source:** [View Repository](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-green?style=flat-square&logo=github)](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
 
 ### Discord Movie Recommendation Bot Using Gemini AI
 An asynchronous, event-driven automation bot utilizing natural language processing pipelines to parse conversation sentiment and deliver live media preferences.
 * **Core Tasks:** Implemented connection handlers using the Discord API, engineered prompt processing logic using the Gemini AI API, and linked live data serialization modules via the TMDb API.
 * **Tech Stack:** Python | Discord API | Gemini AI API | TMDb API
-* **Source:** [View Repository](https://github.com/MeetAhalpara/Discord-Movie-Recommendation-Bot)
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-green?style=flat-square&logo=github)](https://github.com/MeetAhalpara/Discord-Movie-Recommendation-Bot)
 
 ### AWS EC2 Secure Automated File Transfer Bash Script
 An independent cloud-infrastructure shell pipeline built using Linux Bash, secure key-based SSH authentication, and automated cron handlers to sync distributed server directories reliably.
 * **Core Tasks:** Wrote automated backup scripts, implemented path validation and connection check logging, and handled secure remote file transfers via SCP.
 * **Tech Stack:** AWS | Linux Bash | SSH | Cloud Automation
-* **Source:** [View Repository](https://github.com/MeetAhalpara/AWS-EC2-Automated-File-Transfer)
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-green?style=flat-square&logo=github)](https://github.com/MeetAhalpara/AWS-EC2-Automated-File-Transfer)
 
 ### Android Mobile Sensor Recording & Bluetooth Sharing App
 A collaborative mobile application engineered to collect ambient hardware telemetry data and transmit historical states across localized peer-to-peer device nodes.
 * **Core Tasks:** Programmed native sensor reading registers (Light/Proximity) in Kotlin, established Bluetooth pairing connections via UUID QR code matching, and structured local database history storage using Room.
 * **Tech Stack:** Kotlin | Android Studio | Room Database | Bluetooth LE
-* **Source:** [View Repository](https://github.com/MeetAhalpara/Android-Mobile-Sensor-Recording-App)
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-green?style=flat-square&logo=github)](https://github.com/MeetAhalpara/Android-Mobile-Sensor-Recording-App)
 
 ---
 
