@@ -19,7 +19,7 @@ From leading full-lifecycle web development workflows during my software enginee
 ## Technical Skills
 
 ### Core Programming
-‣ **Languages:** Java, Python, JavaScript, TypeScript, SQL, T-SQL, Dart, Kotlin, Bash
+* **Languages:** Java, Python, JavaScript, TypeScript, SQL, T-SQL, Dart, Kotlin, Bash
 * **Methodologies:** Object-Oriented Programming (OOP), Agile Software Development, RESTful API Architecture, Software Design Patterns (DAO, Factory)
 
 ### Frameworks, Libraries & Web
