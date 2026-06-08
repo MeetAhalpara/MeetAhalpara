@@ -74,9 +74,11 @@ A collaborative mobile application engineered to collect ambient hardware teleme
 ## Education & Credentials
 
 ### Academic Foundations
-* **[![Algonquin College](https://img.shields.io/badge/Advanced%20Diploma%20in%20Computer%20Programming%20and%20Analysis-Class_of_2026-24292e?style=flat-round)](https://www.algonquin-college.com/)** | (Ottawa, ON)
+* **[![Algonquin College](https://img.shields.io/badge/Advanced%20Diploma%20in%20Computer%20Programming%20and%20Analysis-Class_of_2026-24292e?style=flat-round)](https://www.algonquin-college.com/)**
+  * (Ottawa, ON)
   * *Honours:* Dual Dean's List (3.83 & 3.74 Term GPAs)
-* **[![Polytechnic](https://img.shields.io/badge/Diploma%20in%20Information%20Technology-Graduated-24292e?style=round)](https://sites.google.com/view/sirbpti/home)** | (Gujarat, India)
+* **[![Polytechnic](https://img.shields.io/badge/Diploma%20in%20Information%20Technology-Graduated-24292e?style=round)](https://sites.google.com/view/sirbpti/home)**
+  * (Gujarat, India)
   * *Honours:* 7.91 / 10.0 CGPA
 
 ### Professional Certifications
