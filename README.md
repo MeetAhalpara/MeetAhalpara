@@ -74,12 +74,12 @@ A collaborative mobile application engineered to collect ambient hardware teleme
 ## Education & Credentials
 
 ### Academic Foundations
-* **Advanced Diploma in Computer Programming and Analysis** | (Ottawa, ON) 
-  * *Honours:* Dual Dean's List (3.83 & 3.74 Term GPAs)
+* **Advanced Diploma in Computer Programming and Analysis** | (Ottawa, ON)
   * [![Algonquin College](https://img.shields.io/badge/Algonquin_College-Class_of_2026-24292e?style=flat&logo=academic-cap)](https://www.algonquin-college.com/)
+  * *Honours:* Dual Dean's List (3.83 & 3.74 Term GPAs)
 * **Diploma in Information Technology** | (Gujarat, India)
+  * [![Polytechnic](https://img.shields.io/badge/Sir_Bhavsinhji_Polytechnic-Diploma_Graduate-24292e?style=flat)](https://sites.google.com/view/sirbpti/home)   
   * *Honours:* 7.91 / 10.0 CGPA
-  * * [![Polytechnic](https://img.shields.io/badge/Sir_Bhavsinhji_Polytechnic-Diploma_Graduate-24292e?style=flat)](https://sites.google.com/view/sirbpti/home)   
 
 ### Professional Certifications
 * AWS Certified Cloud Practitioner (CLF-C02) — *In Progress*
