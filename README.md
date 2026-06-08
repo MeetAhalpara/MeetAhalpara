@@ -39,7 +39,8 @@ From leading full-lifecycle web development workflows during my software enginee
 
 ## Featured Engineering Projects
 
-### Banking Data Warehouse & Loan Default Analytics System [![Repository](https://img.shields.io/badge/View-Repository-bottlegreen?style=flat-round&logo=github)](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
+### Banking Data Warehouse & Loan Default Analytics System 
+[![Repository](https://img.shields.io/badge/View-Repository-bottlegreen?style=flat-round&logo=github)](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
 An end-to-end data warehousing pipeline built to process historical financial transaction streams, engineer predictive risk default logic, and surface actionable insights through Power BI dashboards.
 * **Core Tasks:** Developed SSIS ETL migration workflows, structured historical database schemas inside SSMS, integrated external regional economic metrics, and designed risk visibility panels.
 * **Tech Stack:** T-SQL | SSIS | SSMS | Power BI
