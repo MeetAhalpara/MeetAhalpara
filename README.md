@@ -74,9 +74,9 @@ A collaborative mobile application engineered to collect ambient hardware teleme
 ## Education & Credentials
 
 ### Academic Foundations
-* **Advanced Diploma in Computer Programming and Analysis** | Algonquin College (Ottawa, ON)  
+* **Advanced Diploma in Computer Programming and Analysis** | [Algonquin College](https://www.algonquincollege.com/) (Ottawa, ON)  
   * *Honours:* Dual Dean's List (3.83 & 3.74 Term GPAs)
-* **Diploma in Information Technology** | Sir Bhavsinhji Polytechnic Institute (Gujarat, India)  
+* **Diploma in Information Technology** | [Sir Bhavsinhji Polytechnic Institute](https://sites.google.com/view/sirbpti/home) (Gujarat, India)  
   * *Honours:* 7.91 / 10.0 CGPA
 
 ### Professional Certifications
