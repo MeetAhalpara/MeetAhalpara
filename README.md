@@ -19,7 +19,7 @@ From leading full-lifecycle web development workflows during my software enginee
 ## Technical Skills
 
 ### Core Programming
-* **Languages:** Java, Python, JavaScript, TypeScript, SQL, Dart, Kotlin, Bash
+* **Languages:** Java, Python, JavaScript, TypeScript, SQL, T-SQL, Dart, Kotlin, Bash
 * **Methodologies:** Object-Oriented Programming (OOP), Agile Software Development, RESTful API Architecture, Software Design Patterns (DAO, Factory)
 
 ### Frameworks, Libraries & Web
@@ -27,8 +27,8 @@ From leading full-lifecycle web development workflows during my software enginee
 * **Testing & Automation:** Jest, k6, Postman API, Newman CLI
 
 ### Cloud, DevOps & Infrastructure
-* **Platforms:** Amazon Web Services (AWS), Microsoft Azure
-* **Containerization & CI/CD:** Docker, GitHub Actions, Git
+* **Platforms:** Amazon Web Services (AWS), Microsoft Azure, Azure DevOps
+* **Containerization & CI/CD:** Docker, GitHub Actions, Git, Jira
 * **Networking & Virtualization:** Linux (Ubuntu/Debian), VMware, Wireshark, Cisco Packet Tracer
 
 ### Data & Business Intelligence
