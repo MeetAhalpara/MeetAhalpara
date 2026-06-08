@@ -1,224 +1,86 @@
 # Meet Ahalpara
 
-Software Developer | AI | Cloud | Data Systems | DevOps | Mobile Development
+**Software Developer | Python · Java · AWS Cloud & DevOps**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/meetahalpara/)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/MeetAhalpara)
-[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:Meetahalpara1@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/meetahalpara/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/MeetAhalpara)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail)](mailto:Meetahalpara1@gmail.com)
 
 ---
 
 ## About Me
 
-Software developer with experience in artificial intelligence, backend systems, cloud infrastructure, and data analytics.
+I am a Software Developer and Computer Programming & Analysis advanced diploma student at Algonquin College, recognized on the Dual Dean's Honours List. My engineering focus is on building clean backend architectures, relational data workflows, and secure cloud pipelines. 
 
-I enjoy building intelligent systems that combine machine learning, cloud automation, scalable software architecture, and modern application development.
-
-My work spans AI applications, cloud infrastructure automation, database systems, mobile development, and DevOps practices.
-
-Currently exploring:
-
-‣ Artificial Intelligence & Machine Learning  
-‣ Cloud Systems (AWS / Azure)  
-‣ Backend Development & REST APIs  
-‣ Data Analytics & Business Intelligence  
-‣ DevOps & CI/CD Automation  
-‣ Android Application Development  
-‣ Networking Analysis  
+From leading full-lifecycle web development workflows during my software engineering internship to configuring structured database warehouses, I focus on writing reliable, component-driven code and optimizing platform deployment.
 
 ---
 
 ## Technical Skills
 
-### Programming Languages
+### Core Programming
+* **Languages:** Java, Python, JavaScript, TypeScript, SQL, Kotlin, Bash
+* **Methodologies:** Object-Oriented Programming (OOP), Agile Software Development, RESTful API Architecture, Software Design Patterns (DAO, Factory)
 
-‣ Java  
-‣ Python  
-‣ JavaScript  
-‣ TypeScript  
-‣ SQL  
-‣ Kotlin  
-‣ Dart  
+### Frameworks, Libraries & Web
+* **Backend & Web:** Flask, Java Servlets, JavaServer Pages (JSP), JDBC
+* **Testing & Automation:** Jest, k6, Postman API, Newman CLI
 
-### Frameworks & Libraries
+### Cloud, DevOps & Infrastructure
+* **Platforms:** Amazon Web Services (AWS), Microsoft Azure
+* **Containerization & CI/CD:** Docker, GitHub Actions, Git
+* **Networking & Virtualization:** Linux (Ubuntu/Debian), VMware, Wireshark, Cisco Packet Tracer
 
-‣ Flask  
-‣ TensorFlow  
-‣ Keras  
-‣ React  
-‣ JavaFX  
-
-### Databases
-
-‣ MySQL  
-‣ SQLite  
-‣ Oracle Database  
-‣ MongoDB  
-‣ PostgreSQL  
-‣ Supabase (Cloud Database)
-
-### Cloud & DevOps
-
-‣ AWS  
-‣ Azure  
-‣ Docker  
-‣ Jenkins  
-‣ GitHub Actions  
-‣ CI/CD Pipelines  
-
-### Development Tools
-
-‣ IntelliJ IDEA  
-‣ VS Code  
-‣ Android Studio  
-‣ PyCharm  
-‣ RapidMiner  
-‣ SSMS  
-‣ SceneBuilder  
-‣ VMware  
-
-### Operating Systems
-
-‣ Linux  
-‣ Windows  
-
-### Networking Tools
-
-‣ Wireshark  
+### Data & Business Intelligence
+* **Databases:** MySQL, SQL Server (SSMS), Oracle Database, MongoDB, Supabase
+* **Data Integration:** SQL Server Integration Services (SSIS), Power BI Analytics
 
 ---
 
-# Featured Projects
+## Featured Engineering Projects
+
+### Banking Data Warehouse & Loan Default Analytics System
+An end-to-end data warehousing pipeline built to process historical financial transaction streams, engineer predictive risk default logic, and surface actionable insights through Power BI dashboards.
+* **Core Tasks:** Developed SSIS ETL migration workflows, structured historical database schemas inside SSMS, integrated external regional economic metrics, and designed risk visibility panels.
+* **Tech Stack:** T-SQL | SSIS | SSMS | Power BI
+* **Source:** [View Repository](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
+
+### Java Enterprise Public Transport Fleet Management System
+A multi-tier web platform engineered with Java Servlets and JDBC components, utilizing strict Data Access Object (DAO) and Factory software design patterns to ensure modular database scalability.
+* **Core Tasks:** Separated presentation layers from backend business logic, implemented custom relational database connections, and validated system route endpoints natively inside development browsers.
+* **Tech Stack:** Java | JDBC | MySQL | Servlets | REST APIs
+* **Source:** [View Repository](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
+
+### Discord Movie Recommendation Bot Using Gemini AI
+An asynchronous, event-driven automation bot utilizing natural language processing pipelines to parse conversation sentiment and deliver live media preferences.
+* **Core Tasks:** Implemented connection handlers using the Discord API, engineered prompt processing logic using the Gemini AI API, and linked live data serialization modules via the TMDb API.
+* **Tech Stack:** Python | Discord API | Gemini AI API | TMDb API
+* **Source:** [View Repository](https://github.com/MeetAhalpara/Discord-Movie-Recommendation-Bot)
+
+### AWS EC2 Secure Automated File Transfer Bash Script
+An independent cloud-infrastructure shell pipeline built using Linux Bash, secure key-based SSH authentication, and automated cron handlers to sync distributed server directories reliably.
+* **Core Tasks:** Wrote automated backup scripts, implemented path validation and connection check logging, and handled secure remote file transfers via SCP.
+* **Tech Stack:** AWS | Linux Bash | SSH | Cloud Automation
+* **Source:** [View Repository](https://github.com/MeetAhalpara/AWS-EC2-Automated-File-Transfer)
+
+### Android Mobile Sensor Recording & Bluetooth Sharing App
+A collaborative mobile application engineered to collect ambient hardware telemetry data and transmit historical states across localized peer-to-peer device nodes.
+* **Core Tasks:** Programmed native sensor reading registers (Light/Proximity) in Kotlin, established Bluetooth pairing connections via UUID QR code matching, and structured local database history storage using Room.
+* **Tech Stack:** Kotlin | Android Studio | Room Database | Bluetooth LE
+* **Source:** [View Repository](https://github.com/MeetAhalpara/Android-Mobile-Sensor-Recording-App)
 
 ---
 
-## Cloud Automation & VM File Transfer System
+## Education & Credentials
 
-Automated cloud infrastructure workflow using AWS virtual machines and scheduled system tasks.
+### Academic Foundations
+* **Advanced Diploma in Computer Programming and Analysis** | Algonquin College (Ottawa, ON)  
+  * *Honours:* Dual Dean's List (3.83 & 3.74 Term GPAs)
+* **Diploma in Information Technology** | Sir Bhavsinhji Polytechnic Institute (Gujarat, India)  
+  * *Honours:* 7.91 / 10.0 CGPA
 
-Project Architecture:
-
-‣ Two virtual machines communicate securely using SSH  
-‣ Cron jobs orchestrate VM startup and execution timing  
-‣ File transfer occurs between VMs via secure SSH connection  
-‣ Execution logs record program run time  
-‣ Cron-based shutdown scheduling helps control cloud resource usage
-
-Workflow:
-
-VM1 starts via cron → transfers file to VM2 using SSH → VM2 executes the program → execution time logged → both VMs shut down via scheduled cron tasks.
-
-Tech Stack:
-
-AWS | Linux | SSH | Cron Jobs | Cloud Automation
-
-[![Repository](https://img.shields.io/badge/View-Repository-green?logo=github)](https://github.com/MeetAhalpara/Development--Testing-AWS)
-
----
-
-## Karen — AI Movie Recommendation Discord Bot
-
-AI-powered Discord bot that recommends movies using IMDB datasets and Gemini AI based on user preferences.
-
-Features:
-
-‣ Retrieves movie information from IMDB dataset  
-‣ Interacts with users through Discord commands  
-‣ Analyzes user preferences  
-‣ Uses Gemini AI to interpret user responses  
-‣ Generates personalized movie recommendations  
-
-Tech Stack:
-
-Python | Discord API | Gemini API | IMDB Dataset
-
-[![Repository](https://img.shields.io/badge/View-Repository-green?logo=github)](https://github.com/MeetAhalpara/Karen)
-
----
-
-## Machine Learning Data Analysis Project
-
-Machine learning and data analytics project applying multiple algorithms for classification and clustering.
-
-Algorithms Implemented:
-
-‣ K-Nearest Neighbors (KNN)  
-‣ Decision Trees  
-‣ K-Means Clustering  
-‣ Outlier Detection  
-
-Focus Areas:
-
-‣ Data preprocessing  
-‣ Pattern discovery  
-‣ Predictive modeling  
-
-Technologies:
-
-Python | Machine Learning | Data Analysis | RapidMiner
-
-[![Repository](https://img.shields.io/badge/View-Repository-green?logo=github)](https://github.com/MeetAhalpara/BIDA)
-
----
-
-## Public Transport Fleet Management System
-
-Java-based backend application that manages public transport vehicle data using a database-backed architecture.
-
-System Features:
-
-‣ Java backend with JDBC database connectivity  
-‣ CRUD operations for fleet management  
-‣ Backend service layer implementation  
-‣ REST API integration  
-‣ API testing and endpoint validation  
-
-Technologies:
-
-Java | JDBC | SQL Database | REST APIs
-
-[![Repository](https://img.shields.io/badge/View-Repository-green?logo=github)](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
-
----
-
-## DevOps & Collaboration Experience
-
-Implemented continuous integration workflows in team-based development environments.
-
-Key Practices:
-
-‣ Git-based version control and branch management  
-‣ CI pipelines that automatically build and test projects after commits  
-‣ Automated notifications to team members on build success or failure  
-‣ Collaborative debugging and issue resolution  
-
-As team lead, I configured automated notifications that send email alerts for CI pipeline results to maintain transparency and accountability across the development team.
-
----
-
-## Education
-
-Computer Programming and Analysis  
-Algonquin College  
-Ottawa, Ontario, Canada  
-Jan 2024 – Sept 2026
-
-Information Technology  
-Sir Bhavsinhji Polytechnic Institute  
-Bhavnagar, Gujarat, India  
-Aug 2019 – Jun 2022
-
----
-
-## Certifications
-
-‣ AWS Educate – Introduction to Cloud 101  
-‣ Microsoft – Describe Cloud Computing  
-‣ AWS Certified Cloud Practitioner (CLF-C02) Certification Preparation  
-‣ LinkedIn Learning – Software Architecture Patterns  
-‣ LinkedIn Learning – Agile Software Development  
-‣ LinkedIn Learning – Software Testing Foundations  
-
-Currently preparing for AWS Cloud Practitioner Certification.
-
----
+### Professional Certifications
+* AWS Certified Cloud Practitioner (CLF-C02) — *In Progress / Candidate*
+* AWS Educate – Introduction to Cloud 101
+* Microsoft – Describe Cloud Computing Principles
+* LinkedIn Learning Certificate – Software Architecture Patterns
