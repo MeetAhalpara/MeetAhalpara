@@ -19,7 +19,7 @@ From leading full-lifecycle web development workflows during my software enginee
 ## Technical Skills
 
 ### Core Programming
-* **Languages:** Java, Python, JavaScript, TypeScript, SQL, Kotlin, Bash
+* **Languages:** Java, Python, JavaScript, TypeScript, SQL, Dart, Kotlin, Bash
 * **Methodologies:** Object-Oriented Programming (OOP), Agile Software Development, RESTful API Architecture, Software Design Patterns (DAO, Factory)
 
 ### Frameworks, Libraries & Web
@@ -80,7 +80,7 @@ A collaborative mobile application engineered to collect ambient hardware teleme
   * *Honours:* 7.91 / 10.0 CGPA
 
 ### Professional Certifications
-* AWS Certified Cloud Practitioner (CLF-C02) — *In Progress / Candidate*
+* AWS Certified Cloud Practitioner (CLF-C02) — *In Progress*
 * AWS Educate – Introduction to Cloud 101
 * Microsoft – Describe Cloud Computing Principles
 * LinkedIn Learning Certificate – Software Architecture Patterns
