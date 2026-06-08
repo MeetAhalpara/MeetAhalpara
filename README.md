@@ -43,7 +43,7 @@ From leading full-lifecycle web development workflows during my software enginee
 An end-to-end data warehousing pipeline built to process historical financial transaction streams, engineer predictive risk default logic, and surface actionable insights through Power BI dashboards.
 * **Core Tasks:** Developed SSIS ETL migration workflows, structured historical database schemas inside SSMS, integrated external regional economic metrics, and designed risk visibility panels.
 * **Tech Stack:** T-SQL | SSIS | SSMS | Power BI
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=cmd)](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=small)](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
 
 ### Java Enterprise Public Transport Fleet Management System
 A multi-tier web platform engineered with Java Servlets and JDBC components, utilizing strict Data Access Object (DAO) and Factory software design patterns to ensure modular database scalability.
