@@ -23,8 +23,8 @@ From leading full-lifecycle web development workflows during my software enginee
 * **Methodologies:** Object-Oriented Programming (OOP), Agile Software Development, RESTful API Architecture, Software Design Patterns (DAO, Factory)
 
 ### Frameworks, Libraries & Web
-* **Backend & Web:** Flask, Java Servlets, JavaServer Pages (JSP), JDBC
-* **Testing & Automation:** Jest, k6, Postman API, Newman CLI
+* **Backend & Web:** TensorFlow, Scikit-learn, Hugging Face, Prompt Engineering, Flask, Java Servlets, JavaServer Pages (JSP), JDBC
+* **Testing & Automation:** LLM Evaluation (Evals), MLOps Tracking, Jest, k6, Postman API, Newman CLI
 
 ### Cloud, DevOps & Infrastructure
 * **Platforms:** Amazon Web Services (AWS), Microsoft Azure, Azure DevOps
@@ -51,6 +51,15 @@ A multi-tier web platform engineered with Java Servlets and JDBC components, uti
 * **Tech Stack:** Java | JDBC | MySQL | Servlets | REST APIs
 * **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
 
+### AI & Emerging Technologies Engineering Hub
+A multi-domain technical portfolio repository showcasing modular deep learning architectures, automated model validation pathways, and highly optimized computer vision preprocessing configurations.
+* **Core Tasks:** Engineered a production-ready repository architecture curating multi-domain deep learning models, neural networks, and computer vision pipelines to serve clean inference tasks.
+* **Data Workflows:** Architected end-to-end data ingestion workflows using custom preprocessing scripts to tokenize textual data structures, clean matrix shapes, and pipeline multi-dimensional tensor arrays.
+* **Validation Loops:** Implemented model evaluation metrics and validation loops to mathematically gauge loss functions, accuracy boundaries, and token usage efficiencies across dynamic training loads.
+* **Environment Architecture:** Deployed streamlined environment execution layouts utilizing unified script wrappers to guarantee deployment parity and provide structured deployment paths for machine learning architectures.
+* **Tech Stack:** Python | TensorFlow | Scikit-learn | Large Language Models (LLMs)
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/MeetAhalpara/ai-machine-learning-emerging-tech-projects)
+
 ### Discord Movie Recommendation Bot Using Gemini AI
 An asynchronous, event-driven automation bot utilizing natural language processing pipelines to parse conversation sentiment and deliver live media preferences.
 * **Core Tasks:** Implemented connection handlers using the Discord API, engineered prompt processing logic using the Gemini AI API, and linked live data serialization modules via the TMDb API.
@@ -68,7 +77,6 @@ A collaborative mobile application engineered to collect ambient hardware teleme
 * **Core Tasks:** Programmed native sensor reading registers (Light/Proximity) in Kotlin, established Bluetooth pairing connections via UUID QR code matching, and structured local database history storage using Room.
 * **Tech Stack:** Kotlin | Android Studio | Room Database | Bluetooth LE
 * **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/AppliedProjects/AdvancedMobileApplication)
-
 ---
 
 ## Education & Credentials
