@@ -1,6 +1,6 @@
 # Meet Ahalpara
 
-**Software Developer | Python · Java · AWS Cloud & DevOps**
+**Software & AI Systems Engineer | Full-Stack · DevOps & Cloud · Data & Automation**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/meetahalpara/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/MeetAhalpara)
@@ -10,39 +10,31 @@
 
 ## About Me
 
-I am a Software Developer and Computer Programming & Analysis advanced diploma student at Algonquin College, recognized on the Dual Dean's Honours List. My engineering focus is on building clean backend architectures, relational data workflows, and secure cloud pipelines. 
+I am a Software & AI Systems Engineer and Computer Programming & Analysis advanced diploma student at Algonquin College, recognized on the Dual Dean's Honours List. My engineering practice is driven by deep analytical observation—continuously studying system behaviour over time to identify hidden patterns, eliminate performance bottlenecks, and engineer high-impact solutions.
 
-From leading full-lifecycle web development workflows during my software engineering internship to configuring structured database warehouses, I focus on writing reliable, component-driven code and optimizing platform deployment.
+My technical scope spans full-stack web architectures (Next.js/React & FastAPI), multi-LLM Retrieval-Augmented Generation (RAG) platforms, enterprise data warehousing (T-SQL/SSIS/Power BI), and automated DevOps cloud pipelines (AWS/Docker/CI-CD). Whether building zero-hallucination AI engines or optimizing database query performance, I focus on delivering scalable, reliable, and mathematically verified software systems.
 
 ---
 
-## Technical Skills
+## Technical Core & Specializations
 
-### Core Programming
-* **Languages:** Java, Python, JavaScript, TypeScript, SQL, T-SQL, Dart, Kotlin, Bash
-* **Methodologies:** Object-Oriented Programming (OOP), Agile Software Development, RESTful API Architecture, Software Design Patterns (DAO, Factory)
-
-### Frameworks, Libraries & Web
-* **Backend & Web:** Next.js 15, FastAPI, TensorFlow, Scikit-learn, Hugging Face, Prompt Engineering, Flask, Java Servlets, JavaServer Pages (JSP), JDBC
-* **Testing & Automation:** LLM Evaluation (Evals), MLOps Tracking, Jest, k6, Postman API, Newman CLI
-
-### Cloud, DevOps & Infrastructure
-* **Platforms:** Amazon Web Services (AWS), Microsoft Azure, Azure DevOps
-* **Containerization & CI/CD:** Docker, GitHub Actions, Git, Jira
-* **Networking & Virtualization:** Linux (Ubuntu/Debian), VMware, Wireshark, Cisco Packet Tracer
-
-### Data & Business Intelligence
-* **Databases:** Weaviate (Vector DB), Neon PostgreSQL, Redis, MySQL, SQL Server (SSMS), Oracle Database, MongoDB, Supabase
-* **Data Integration:** RAG Pipelines, SQL Server Integration Services (SSIS), Power BI Analytics
+* **Full-Stack & Web Systems:** Next.js 15, React 19, TypeScript, JavaScript, Python (FastAPI/Flask), Java (Servlets/JDBC/JSP), Tailwind CSS 3.4
+* **AI, RAG & Automation:** Multi-LLM Ensembles, Retrieval-Augmented Generation (RAG), Weaviate Vector DB, OmniRoute / OpenRouter, Groq API, Automated Evals & Judge Models
+* **DevOps, Cloud & Infrastructure:** AWS (EC2/S3/IAM), Docker Containerization, GitHub Actions CI/CD, Linux (Ubuntu/Debian), Redis Caching, Nginx, Azure DevOps
+* **Data Engineering & Databases:** Neon PostgreSQL, T-SQL, SQL Server (SSMS), SSIS ETL Data Pipelines, Power BI Analytics, MySQL, MongoDB
+* **Quality Assurance & Testing:** Automated Evals, Jest Unit Testing, k6 Load & Performance Testing, Postman API & Newman CLI Automation
 
 ---
 
 ## Featured Engineering Projects
 
-### NityaGeeta — RAG-Grounded Spiritual & Philosophical AI Platform
-An open-source, multi-LLM conversational platform delivering scripture-grounded philosophical guidance from the *Srimad Bhagavad Gita* backed by 1,296 pages of authoritative commentaries with verifiable citations and zero AI hallucinations.
-* **Core Tasks:** Preprocessed 1,296 pages of Gita Press Gorakhpur (*Sadhaka-Sanjivani*) commentary into a structured dataset, built a hybrid RAG pipeline using Weaviate Cloud vector search & Groq API LLM ensemble, and engineered an interactive Next.js 15 frontend featuring verifiable Sanskrit, verse, and page citations.
-* **Tech Stack:** Next.js 15 | TypeScript | Python FastAPI | Weaviate Vector DB | Neon PostgreSQL | Groq API | Redis | Docker
+### NityaGeeta — Multi-LLM Ensemble & Scripture-Grounded RAG Platform
+An open-source, multi-LLM ensemble platform and Retrieval-Augmented Generation (RAG) system delivering scripture-grounded guidance from the *Srimad Bhagavad Gita* with verifiable, page-by-page citations back to 1,296 pages of printed commentaries.
+* **Dual-Source RAG Engine:** Architected a hybrid retrieval pipeline combining an in-memory 700-shloka RAM index with Weaviate Cloud vector search across 1,296 Gita Press Gorakhpur (*Sadhaka-Sanjivani*) commentary pages, achieving 100% citation grounding with zero AI hallucinations.
+* **Asynchronous Multi-LLM Ensemble:** Built a Python `asyncio.gather()` concurrent execution engine with an automated Groq Llama 3.1 8B Judge evaluator, achieving a 12x reduction in multi-model latency (from 22s down to 1.8s).
+* **Multi-Provider Fallback Gateway (OmniRoute):** Integrated a unified multi-provider gateway (**OmniRoute** / OpenRouter) providing zero vendor lock-in across 160+ frontier models (Claude 3.5 Sonnet, DeepSeek V3, Llama 3.3) with local Docker Redis micro-caching (<1ms) and Neon PostgreSQL session persistence.
+* **Modern Decoupled Frontend:** Implemented a Next.js 15 / React 19 / Tailwind CSS frontend with Framer Motion GPU animations, Google OAuth 2.0 authentication, and automated GitHub Actions CI/CD pipelines.
+* **Tech Stack:** Next.js 15 | React 19 | Python FastAPI | OmniRoute / OpenRouter | Weaviate Vector DB | Neon PostgreSQL | Redis | Docker | Groq API
 * **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/MeetAhalpara/NityaGeeta)
 
 ### Banking Data Warehouse & Loan Default Analytics System 
