@@ -23,7 +23,7 @@ From leading full-lifecycle web development workflows during my software enginee
 * **Methodologies:** Object-Oriented Programming (OOP), Agile Software Development, RESTful API Architecture, Software Design Patterns (DAO, Factory)
 
 ### Frameworks, Libraries & Web
-* **Backend & Web:** TensorFlow, Scikit-learn, Hugging Face, Prompt Engineering, Flask, Java Servlets, JavaServer Pages (JSP), JDBC
+* **Backend & Web:** Next.js 15, FastAPI, TensorFlow, Scikit-learn, Hugging Face, Prompt Engineering, Flask, Java Servlets, JavaServer Pages (JSP), JDBC
 * **Testing & Automation:** LLM Evaluation (Evals), MLOps Tracking, Jest, k6, Postman API, Newman CLI
 
 ### Cloud, DevOps & Infrastructure
@@ -32,12 +32,18 @@ From leading full-lifecycle web development workflows during my software enginee
 * **Networking & Virtualization:** Linux (Ubuntu/Debian), VMware, Wireshark, Cisco Packet Tracer
 
 ### Data & Business Intelligence
-* **Databases:** MySQL, SQL Server (SSMS), Oracle Database, MongoDB, Supabase
-* **Data Integration:** SQL Server Integration Services (SSIS), Power BI Analytics
+* **Databases:** Weaviate (Vector DB), Neon PostgreSQL, Redis, MySQL, SQL Server (SSMS), Oracle Database, MongoDB, Supabase
+* **Data Integration:** RAG Pipelines, SQL Server Integration Services (SSIS), Power BI Analytics
 
 ---
 
 ## Featured Engineering Projects
+
+### NityaGeeta — RAG-Grounded Spiritual & Philosophical AI Platform
+An open-source, multi-LLM conversational platform delivering scripture-grounded philosophical guidance from the *Srimad Bhagavad Gita* backed by 1,296 pages of authoritative commentaries with verifiable citations and zero AI hallucinations.
+* **Core Tasks:** Preprocessed 1,296 pages of Gita Press Gorakhpur (*Sadhaka-Sanjivani*) commentary into a structured dataset, built a hybrid RAG pipeline using Weaviate Cloud vector search & Groq API LLM ensemble, and engineered an interactive Next.js 15 frontend featuring verifiable Sanskrit, verse, and page citations.
+* **Tech Stack:** Next.js 15 | TypeScript | Python FastAPI | Weaviate Vector DB | Neon PostgreSQL | Groq API | Redis | Docker
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/MeetAhalpara/NityaGeeta)
 
 ### Banking Data Warehouse & Loan Default Analytics System 
 An end-to-end data warehousing pipeline built to process historical financial transaction streams, engineer predictive risk default logic, and surface actionable insights through Power BI dashboards.
@@ -77,6 +83,7 @@ A collaborative mobile application engineered to collect ambient hardware teleme
 * **Core Tasks:** Programmed native sensor reading registers (Light/Proximity) in Kotlin, established Bluetooth pairing connections via UUID QR code matching, and structured local database history storage using Room.
 * **Tech Stack:** Kotlin | Android Studio | Room Database | Bluetooth LE
 * **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/AppliedProjects/AdvancedMobileApplication)
+
 ---
 
 ## Education & Credentials
