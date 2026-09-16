@@ -1,95 +1,95 @@
 # Meet Ahalpara
 
-**Software & AI Systems Engineer | Full-Stack · DevOps & Cloud · Data & Automation**
+**Software & AI Systems Engineer | Distributed Systems, Cloud Automation & Data Architecture**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/meetahalpara/)
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/MeetAhalpara)
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail)](mailto:Meetahalpara1@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/meetahalpara/) | [GitHub](https://github.com/MeetAhalpara) | [Email](mailto:Meetahalpara1@gmail.com)
 
 ---
 
 ## About Me
 
-I am a Software & AI Systems Engineer and Computer Programming & Analysis advanced diploma student at Algonquin College, recognized on the Dual Dean's Honours List. My engineering practice is driven by deep analytical observation—continuously studying system behaviour over time to identify hidden patterns, eliminate performance bottlenecks, and engineer high-impact solutions.
+I am a Software and AI Systems Engineer specializing in high-throughput backend runtimes, distributed transactional systems, and deterministic AI retrieval architectures. My engineering focus centers on systems-level resilience: eliminating latency bottlenecks, mitigating state mutation race conditions, and enforcing strict data layer invariants. From architecting hybrid lexical/vector search pipelines with zero hallucinations to engineering 3-tier enterprise data warehouses processing millions of financial records, I build fault-tolerant backends designed for deterministic execution under dynamic load.
 
-My technical scope spans full-stack web architectures (Next.js/React & FastAPI), multi-LLM Retrieval-Augmented Generation (RAG) platforms, enterprise data warehousing (T-SQL/SSIS/Power BI), and automated DevOps cloud pipelines (AWS/Docker/CI-CD). Whether building zero-hallucination AI engines or optimizing database query performance, I focus on delivering scalable, reliable, and mathematically verified software systems.
+My practical experience spans concurrent async API microservices, distributed enterprise applications, and automated quality infrastructure. I design and operate across the stack—orchestrating containerized AWS cloud workflows, implementing database-level Row-Level Security and transaction isolation, and enforcing strict SLAs through end-to-end load testing and continuous deployment pipelines.
 
 ---
 
 ## Technical Core & Specializations
 
-* **Full-Stack & Web Systems:** Next.js 15, React 19, TypeScript, JavaScript, Python (FastAPI/Flask), Java (Servlets/JDBC/JSP), Tailwind CSS 3.4
-* **AI, RAG & Automation:** Multi-LLM Ensembles, Retrieval-Augmented Generation (RAG), Weaviate Vector DB, OmniRoute / OpenRouter, Groq API, Automated Evals & Judge Models
-* **DevOps, Cloud & Infrastructure:** AWS (EC2/S3/IAM), Docker Containerization, GitHub Actions CI/CD, Linux (Ubuntu/Debian), Redis Caching, Nginx, Azure DevOps
-* **Data Engineering & Databases:** Neon PostgreSQL, T-SQL, SQL Server (SSMS), SSIS ETL Data Pipelines, Power BI Analytics, MySQL, MongoDB
-* **Quality Assurance & Testing:** Automated Evals, Jest Unit Testing, k6 Load & Performance Testing, Postman API & Newman CLI Automation
+| Domain | Technologies, Runtimes & Frameworks |
+| :--- | :--- |
+| **Languages & Runtimes** | Python 3.11/3.12/3.13, Java 21 / 8, TypeScript 5.x, JavaScript (ES6+), Kotlin 2.0, SQL, T-SQL, PL/pgSQL, Bash |
+| **Backend & Distributed Systems** | FastAPI, Node.js, Express.js, Java 21 Jakarta EE (EJB, JPA, JAX-RS), Payara Server, Flask, Uvicorn, Asyncio, RESTful APIs |
+| **Databases & Vector Search** | PostgreSQL, pgvector (HNSW Indexing), PostGIS, Microsoft SQL Server (SSMS, SSIS), MySQL, MongoDB (WiredTiger), SQLite, Redis |
+| **Cloud, DevOps & Linux** | AWS (EC2, S3, IAM, EventBridge), Docker, Docker Compose, Linux (Ubuntu, Debian), Nginx, Git, GitHub Actions CI/CD, Jenkins |
+| **Testing & Observability** | Grafana k6, Pytest, Jest, Robot Framework, Selenium WebDriver, Postman / Newman CLI, JUnit 5, OWASP ZAP |
 
 ---
 
 ## Featured Engineering Projects
 
-### NityaGeeta — Multi-LLM Ensemble & Scripture-Grounded RAG Platform
-An open-source, multi-LLM ensemble platform and Retrieval-Augmented Generation (RAG) system delivering scripture-grounded guidance from the *Srimad Bhagavad Gita* with verifiable, page-by-page citations back to 1,296 pages of printed commentaries.
-* **Dual-Source RAG Engine:** Architected a hybrid retrieval pipeline combining an in-memory 700-shloka RAM index with Weaviate Cloud vector search across 1,296 Gita Press Gorakhpur (*Sadhaka-Sanjivani*) commentary pages, achieving 100% citation grounding with zero AI hallucinations.
-* **Asynchronous Multi-LLM Ensemble:** Built a Python `asyncio.gather()` concurrent execution engine with an automated Groq Llama 3.1 8B Judge evaluator, achieving a 12x reduction in multi-model latency (from 22s down to 1.8s).
-* **Multi-Provider Fallback Gateway (OmniRoute):** Integrated a unified multi-provider gateway (**OmniRoute** / OpenRouter) providing zero vendor lock-in across 160+ frontier models (Claude 3.5 Sonnet, DeepSeek V3, Llama 3.3) with local Docker Redis micro-caching (<1ms) and Neon PostgreSQL session persistence.
-* **Modern Decoupled Frontend:** Implemented a Next.js 15 / React 19 / Tailwind CSS frontend with Framer Motion GPU animations, Google OAuth 2.0 authentication, and automated GitHub Actions CI/CD pipelines.
-* **Tech Stack:** Next.js 15 | React 19 | Python FastAPI | OmniRoute / OpenRouter | Weaviate Vector DB | Neon PostgreSQL | Redis | Docker | Groq API
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/MeetAhalpara/NityaGeeta)
+### Full-Scale Inventory & Operations Platform
+A decoupled, multi-tenant inventory control and operational state management platform engineered for strict data isolation and high-concurrency mutation workloads[cite: 1].
+* **Architecture & Storage:** Engineered an Express.js and Node.js REST API with Mongoose ODM, utilizing compound B-tree indexes (`{ ownerUserId: 1, purchased: 1 }`) and resilient multi-stage database bootstrapping with automatic failover from persistent WiredTiger disk storage to in-memory instances[cite: 1].
+* **Ownership Enforcement:** Implemented stateless JWT Bearer token authentication with multi-tenant object-level access verification, eliminating unauthorized cross-tenant mutations[cite: 1].
+* **Performance & Verification:** Validated under concurrent stress using Grafana k6 pipelines to guarantee SLAs ($p(95) < 200\text{ms}$, failure rate $< 1\%$) alongside Newman/Postman automated collection regression suites[cite: 1].
+* **Tech Stack:** Node.js | Express.js | MongoDB (WiredTiger) | Jest | Grafana k6 | Postman / Newman[cite: 1]
+* **Source:** Institutional Repository (Academic Enterprise Org — Access by Request)
 
-### Banking Data Warehouse & Loan Default Analytics System 
-An end-to-end data warehousing pipeline built to process historical financial transaction streams, engineer predictive risk default logic, and surface actionable insights through Power BI dashboards.
-* **Core Tasks:** Developed SSIS ETL migration workflows, structured historical database schemas inside SSMS, integrated external regional economic metrics, and designed risk visibility panels.
-* **Tech Stack:** T-SQL | SSIS | SSMS | Power BI
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
+### NityaGeeta — High-Throughput Grounded Scriptural RAG Platform
+An asynchronous scriptural intelligence engine engineered to eliminate LLM hallucinations across 1,296 pages of printed commentaries through deterministic dual-source retrieval[cite: 1].
+* **Hybrid Retrieval Pipeline:** Architected an in-memory lexical BM25Okapi search engine (Robertson-Spärck Jones IDF with document-length normalization) coupled with Reciprocal Rank Fusion ($k=60$) and $O(1)$ citation extraction to ground responses without hallucination[cite: 1].
+* **Resilience & Streaming:** Implemented an asynchronous 3-state circuit breaker (`CLOSED`, `OPEN`, `HALF-OPEN`) with backoff cooldowns to isolate upstream inference rate limits, serving responses via chunked Server-Sent Events (SSE) streaming tokens[cite: 1].
+* **Validation & CI/CD:** Hardened with strict Pydantic v2 boundary models, a 34-test Pytest verification suite covering citation scrubbers and wire protocols, and an automated GitHub Actions CI/CD pipeline[cite: 1].
+* **Tech Stack:** FastAPI | Python 3.12 | Next.js 15 | React 19 | PostgreSQL | Docker | Pytest | Groq API[cite: 1]
+* **Source:** [View Repository](https://github.com/MeetAhalpara/NityaGeeta)
 
-### Java Enterprise Public Transport Fleet Management System
-A multi-tier web platform engineered with Java Servlets and JDBC components, utilizing strict Data Access Object (DAO) and Factory software design patterns to ensure modular database scalability.
-* **Core Tasks:** Separated presentation layers from backend business logic, implemented custom relational database connections, and validated system route endpoints natively inside development browsers.
-* **Tech Stack:** Java | JDBC | MySQL | Servlets | REST APIs
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
+### ConsultHub — Two-Sided Marketplace & Geospatial Engine
+A full-stack professional marketplace platform featuring vector-based semantic matchmaking, spatial distance filtering, and atomic contract lifecycle workflows[cite: 1].
+* **Semantic & Spatial Discovery:** Implemented Supabase PostgreSQL RPCs combining 384-dimensional pgvector embeddings via HNSW cosine indexing with PostGIS GiST spatial queries (`ST_DWithin`) and composite scoring algorithms ($0.7 \times \text{similarity} + 0.3 \times \text{overlap}$)[cite: 1].
+* **Relational Security & Triggers:** Enforced 100% database-level Row-Level Security (RLS) across all entities, isolated mutations within `SECURITY DEFINER` procedures, and automated messaging states via PL/pgSQL database triggers[cite: 1].
+* **Client Architecture:** Built a unified cross-platform client with React Native (Expo SDK 54) and Next.js 16 App Router, utilizing TanStack Query caching and atomic transaction boundaries[cite: 1].
+* **Tech Stack:** Next.js 16 | React Native (Expo) | Supabase | PostgreSQL | pgvector | PostGIS | TypeScript[cite: 1]
+* **Source:** Confidential Client Platform (Source Private under NDA)
 
-### AI & Emerging Technologies Engineering Hub
-A multi-domain technical portfolio repository showcasing modular deep learning architectures, automated model validation pathways, and highly optimized computer vision preprocessing configurations.
-* **Core Tasks:** Engineered a production-ready repository architecture curating multi-domain deep learning models, neural networks, and computer vision pipelines to serve clean inference tasks.
-* **Data Workflows:** Architected end-to-end data ingestion workflows using custom preprocessing scripts to tokenize textual data structures, clean matrix shapes, and pipeline multi-dimensional tensor arrays.
-* **Validation Loops:** Implemented model evaluation metrics and validation loops to mathematically gauge loss functions, accuracy boundaries, and token usage efficiencies across dynamic training loads.
-* **Environment Architecture:** Deployed streamlined environment execution layouts utilizing unified script wrappers to guarantee deployment parity and provide structured deployment paths for machine learning architectures.
-* **Tech Stack:** Python | TensorFlow | Scikit-learn | Large Language Models (LLMs)
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/MeetAhalpara/ai-machine-learning-emerging-tech-projects)
+### Distributed Enterprise Systems (REST-ACMEMedical & PTFMS)
+A suite of high-availability enterprise applications engineered with strict design patterns and distributed transaction processing capabilities[cite: 1].
+* **Jakarta EE Enterprise Platform (ACMEMedical):** Architected a multi-tier clinical management platform on Java 21 and Payara Server using JAX-RS, stateless EJBs, and JPA/Hibernate with optimistic locking (`@Version`), RFC 7617 HTTP Basic authentication, and Soteria PBKDF2 credential hashing[cite: 1].
+* **Transit Fleet Operations (PTFMS):** Built an enterprise transit coordination platform using Java Servlets, JDBC PreparedStatement pools, and GoF patterns (Strategy for polymorphic propulsion fuel tracking, Adapter for external GPS feeds, and Observer for maintenance dispatching)[cite: 1].
+* **Enterprise Persistence:** Engineered normalized schemas across MySQL instances with connection pooling, declarative role-based access control, and JUnit 5 / Jersey Client integration suites[cite: 1].
+* **Tech Stack:** Java 21 / 8 | Jakarta EE | EJB | JPA / Hibernate | Payara | Servlets | JDBC | MySQL[cite: 1]
+* **Source:** [View Repository (PTFMS)](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
 
-### Discord Movie Recommendation Bot Using Gemini AI
-An asynchronous, event-driven automation bot utilizing natural language processing pipelines to parse conversation sentiment and deliver live media preferences.
-* **Core Tasks:** Implemented connection handlers using the Discord API, engineered prompt processing logic using the Gemini AI API, and linked live data serialization modules via the TMDb API.
-* **Tech Stack:** Python | Discord API | Gemini AI API | TMDb API
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/MeetAhalpara/Discord-Movie-Recommendation-Bot)
+### Banking Analytics Data Warehouse & Risk Default Engine
+A decision-support banking data warehouse modeled on a 3-tier Kimball analytical pattern to ingest, model, and analyze transactional ledgers and forecast credit risk[cite: 1].
+* **High-Volume ETL Architecture:** Engineered SSIS memory-buffered pipelines with upstream physical sort contracts and cascading merge joins to extract, cleanse, and transform $1.05\text{M}+$ financial records and socio-economic metrics[cite: 1].
+* **Predictive Risk Analytics:** Authored multi-level Transact-SQL CTEs, rolling aggregations, and window functions to compute liquidity depletion velocity flags ($>5$ withdrawals $> \$500$), forecasting loan defaults 2–3 months prior to delinquency[cite: 1].
+* **Dimensional Modeling:** Designed star/snowflake schemas in SQL Server with clustered indexing, categorical mapping, and interactive Power BI analytical dashboards[cite: 1].
+* **Tech Stack:** Microsoft SQL Server | T-SQL | SSIS | SSMS | Power BI[cite: 1]
+* **Source:** [View Repository](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
 
-### AWS EC2 Secure Automated File Transfer Bash Script
-An independent cloud-infrastructure shell pipeline built using Linux Bash, secure key-based SSH authentication, and automated cron handlers to sync distributed server directories reliably.
-* **Core Tasks:** Wrote automated backup scripts, implemented path validation and connection check logging, and handled secure remote file transfers via SCP.
-* **Tech Stack:** AWS | Linux Bash | SSH | Cloud Automation
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/MeetAhalpara/AWS-EC2-Automated-File-Transfer)
-
-### Android Mobile Sensor Recording & Bluetooth Sharing App
-A collaborative mobile application engineered to collect ambient hardware telemetry data and transmit historical states across localized peer-to-peer device nodes.
-* **Core Tasks:** Programmed native sensor reading registers (Light/Proximity) in Kotlin, established Bluetooth pairing connections via UUID QR code matching, and structured local database history storage using Room.
-* **Tech Stack:** Kotlin | Android Studio | Room Database | Bluetooth LE
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github&logoSize=auto)](https://github.com/AppliedProjects/AdvancedMobileApplication)
+### SauceDemo Quality Engineering & CI/CD Test Harness
+An enterprise-grade test automation and regression framework designed to evaluate single-page web applications against complex shopping and checkout flows[cite: 1].
+* **DOM Synchronization Engine:** Engineered a Page Object Model (POM) test architecture in Python and Selenium WebDriver, injecting custom JavaScript into React’s internal `_valueTracker` to dispatch synthetic bubbling events and eliminate headless synchronization race conditions[cite: 1].
+* **Dual Automation Engine:** Implemented 22 parameterized Pytest scenarios and 14 keyword-driven Robot Framework specifications with zero implicit waits and explicit condition polling[cite: 1].
+* **Continuous Integration Pipelines:** Configured dual execution pipelines across Jenkins (declarative Jenkinsfile archiving JUnit XML trends) and GitHub Actions with automated failure screenshot capture and interactive HTML test reporting[cite: 1].
+* **Tech Stack:** Python | Selenium WebDriver | Robot Framework | Pytest | Jenkins | GitHub Actions[cite: 1]
+* **Source:** [View Repository](https://github.com/MeetAhalpara/QA-Test-Automation)
 
 ---
 
 ## Education & Credentials
 
 ### Academic Foundations
-* **[![Algonquin College](https://img.shields.io/badge/Advanced%20Diploma%20in%20Computer%20Programming%20and%20Analysis-Class_of_2026-24292e?style=flat-round)](https://www.algonquin-college.com/)**
-  * (Ottawa, ON)
-  * *Honours:* Dual Dean's List (3.83 & 3.74 Term GPAs)
-* **[![Polytechnic](https://img.shields.io/badge/Diploma%20in%20Information%20Technology-Graduated-24292e?style=round)](https://sites.google.com/view/sirbpti/home)**
-  * (Gujarat, India)
-  * *Honours:* 7.91 / 10.0 CGPA
+* **Algonquin College** (Ottawa, ON)
+  * Advanced Diploma in Computer Programming and Analysis
+  * Cumulative GPA: 3.52 / 4.00 | Multi-Term Dean's Honours List
+* **Sir Bhavsinhji Polytechnic Institute** (Gujarat, India)
+  * Diploma in Information Technology
+  * Cumulative GPA: 7.91 / 10.0 CGPA
 
 ### Professional Certifications
-* AWS Certified Cloud Practitioner (CLF-C02) — *In Progress*
+* AWS Certified Cloud Practitioner (CLF-C02) — In Progress
 * AWS Educate – Introduction to Cloud 101
 * Microsoft – Describe Cloud Computing Principles
 * LinkedIn Learning Certificate – Software Architecture Patterns
