@@ -48,7 +48,7 @@ An asynchronous scriptural intelligence engine engineered to eliminate LLM hallu
 
 ### ConsultHub — Two-Sided Marketplace & Geospatial Engine
 A full-stack professional marketplace platform featuring vector-based semantic matchmaking, spatial distance filtering, and atomic contract lifecycle workflows.
-* **Semantic & Spatial Discovery:** Implemented Supabase PostgreSQL RPCs combining 384-dimensional pgvector embeddings via HNSW cosine indexing (`vector_cosine_ops`) with PostGIS GiST spatial queries (`ST_DWithin`) and composite scoring algorithms ($0.7 \times \text{similarity} + 0.3 \times \text{skill\_overlap}$).
+* **Semantic & Spatial Discovery:** Implemented Supabase PostgreSQL RPCs combining 384-dimensional pgvector embeddings via HNSW cosine indexing (`vector_cosine_ops`) with PostGIS GiST spatial queries (`ST_DWithin`) and composite scoring algorithms `(0.7 * similarity + 0.3 * skill_overlap)`.
 * **Relational Security & Triggers:** Enforced 100% database-level Row-Level Security (RLS) across all entities, isolated mutations within `SECURITY DEFINER` procedures, and automated messaging states via PL/pgSQL database triggers.
 * **Client Architecture:** Built a unified cross-platform client with React Native (Expo SDK 54) and Next.js 16 App Router, utilizing TanStack Query caching and atomic transaction boundaries.
 * **Tech Stack:** Next.js 16 | React Native (Expo) | Supabase | PostgreSQL | pgvector | PostGIS | TypeScript
