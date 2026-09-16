@@ -31,52 +31,52 @@ My practical experience spans concurrent async API microservices, distributed en
 ## Featured Engineering Projects
 
 ### Full-Scale Inventory & Operations Platform
-A decoupled, multi-tenant inventory control and operational state management platform engineered for strict data isolation and high-concurrency mutation workloads[cite: 1].
-* **Architecture & Storage:** Engineered an Express.js and Node.js REST API with Mongoose ODM, utilizing compound B-tree indexes (`{ ownerUserId: 1, purchased: 1 }`) and resilient multi-stage database bootstrapping with automatic failover from persistent WiredTiger disk storage to in-memory instances[cite: 1].
-* **Ownership Enforcement:** Implemented stateless JWT Bearer token authentication with multi-tenant object-level access verification, eliminating unauthorized cross-tenant mutations[cite: 1].
-* **Performance & Verification:** Validated under concurrent stress using Grafana k6 pipelines to guarantee SLAs ($p(95) < 200\text{ms}$, failure rate $< 1\%$) alongside Newman/Postman automated collection regression suites[cite: 1].
-* **Tech Stack:** Node.js | Express.js | MongoDB (WiredTiger) | Jest | Grafana k6 | Postman / Newman[cite: 1]
+A decoupled, multi-tenant inventory control and operational state management platform engineered for strict data isolation and high-concurrency mutation workloads.
+* **Architecture & Storage:** Engineered an Express.js and Node.js REST API with Mongoose ODM, utilizing compound B-tree indexes (`{ ownerUserId: 1, purchased: 1 }`) and resilient multi-stage database bootstrapping with automatic failover from persistent WiredTiger disk storage to in-memory instances.
+* **Ownership Enforcement:** Implemented stateless JWT Bearer token authentication with multi-tenant object-level access verification, eliminating unauthorized cross-tenant mutations.
+* **Performance & Verification:** Validated under concurrent stress using Grafana k6 pipelines to guarantee SLAs ($p(95) < 200\text{ms}$, failure rate $< 1\%$) alongside Newman/Postman automated collection regression suites.
+* **Tech Stack:** Node.js | Express.js | MongoDB (WiredTiger) | Jest | Grafana k6 | Postman / Newman
 * **Source:** Institutional Repository (Academic Enterprise Org — Access by Request)
 
 ### NityaGeeta — High-Throughput Grounded Scriptural RAG Platform
-An asynchronous scriptural intelligence engine engineered to eliminate LLM hallucinations across 1,296 pages of printed commentaries through deterministic dual-source retrieval[cite: 1].
-* **Hybrid Retrieval Pipeline:** Architected an in-memory lexical BM25Okapi search engine (Robertson-Spärck Jones IDF with document-length normalization) coupled with Reciprocal Rank Fusion ($k=60$) and $O(1)$ citation extraction to ground responses without hallucination[cite: 1].
-* **Resilience & Streaming:** Implemented an asynchronous 3-state circuit breaker (`CLOSED`, `OPEN`, `HALF-OPEN`) with backoff cooldowns to isolate upstream inference rate limits, serving responses via chunked Server-Sent Events (SSE) streaming tokens[cite: 1].
-* **Validation & CI/CD:** Hardened with strict Pydantic v2 boundary models, a 34-test Pytest verification suite covering citation scrubbers and wire protocols, and an automated GitHub Actions CI/CD pipeline[cite: 1].
-* **Tech Stack:** FastAPI | Python 3.12 | Next.js 15 | React 19 | PostgreSQL | Docker | Pytest | Groq API[cite: 1]
-* **Source:** [View Repository](https://github.com/MeetAhalpara/NityaGeeta)
+An asynchronous scriptural intelligence engine engineered to eliminate LLM hallucinations across 1,296 pages of printed commentaries through deterministic dual-source retrieval.
+* **Hybrid Retrieval Pipeline:** Architected an in-memory lexical BM25Okapi search engine (Robertson-Spärck Jones IDF with document-length normalization) coupled with Reciprocal Rank Fusion ($k=60$) and $O(1)$ citation extraction to ground responses without hallucination.
+* **Resilience & Streaming:** Implemented an asynchronous 3-state circuit breaker (`CLOSED`, `OPEN`, `HALF-OPEN`) with backoff cooldowns to isolate upstream inference rate limits, serving responses via chunked Server-Sent Events (SSE) streaming tokens.
+* **Validation & CI/CD:** Hardened with strict Pydantic v2 boundary models, a 34-test Pytest verification suite covering citation scrubbers and wire protocols, and an automated GitHub Actions CI/CD pipeline.
+* **Tech Stack:** FastAPI | Python 3.12 | Next.js 15 | React 19 | PostgreSQL | Docker | Pytest | Groq API
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/NityaGeeta)
 
 ### ConsultHub — Two-Sided Marketplace & Geospatial Engine
-A full-stack professional marketplace platform featuring vector-based semantic matchmaking, spatial distance filtering, and atomic contract lifecycle workflows[cite: 1].
-* **Semantic & Spatial Discovery:** Implemented Supabase PostgreSQL RPCs combining 384-dimensional pgvector embeddings via HNSW cosine indexing with PostGIS GiST spatial queries (`ST_DWithin`) and composite scoring algorithms ($0.7 \times \text{similarity} + 0.3 \times \text{overlap}$)[cite: 1].
-* **Relational Security & Triggers:** Enforced 100% database-level Row-Level Security (RLS) across all entities, isolated mutations within `SECURITY DEFINER` procedures, and automated messaging states via PL/pgSQL database triggers[cite: 1].
-* **Client Architecture:** Built a unified cross-platform client with React Native (Expo SDK 54) and Next.js 16 App Router, utilizing TanStack Query caching and atomic transaction boundaries[cite: 1].
-* **Tech Stack:** Next.js 16 | React Native (Expo) | Supabase | PostgreSQL | pgvector | PostGIS | TypeScript[cite: 1]
+A full-stack professional marketplace platform featuring vector-based semantic matchmaking, spatial distance filtering, and atomic contract lifecycle workflows.
+* **Semantic & Spatial Discovery:** Implemented Supabase PostgreSQL RPCs combining 384-dimensional pgvector embeddings via HNSW cosine indexing with PostGIS GiST spatial queries (`ST_DWithin`) and composite scoring algorithms ($0.7 \times \text{similarity} + 0.3 \times \text{overlap}$).
+* **Relational Security & Triggers:** Enforced 100% database-level Row-Level Security (RLS) across all entities, isolated mutations within `SECURITY DEFINER` procedures, and automated messaging states via PL/pgSQL database triggers.
+* **Client Architecture:** Built a unified cross-platform client with React Native (Expo SDK 54) and Next.js 16 App Router, utilizing TanStack Query caching and atomic transaction boundaries.
+* **Tech Stack:** Next.js 16 | React Native (Expo) | Supabase | PostgreSQL | pgvector | PostGIS | TypeScript
 * **Source:** Confidential Client Platform (Source Private under NDA)
 
 ### Distributed Enterprise Systems (REST-ACMEMedical & PTFMS)
-A suite of high-availability enterprise applications engineered with strict design patterns and distributed transaction processing capabilities[cite: 1].
-* **Jakarta EE Enterprise Platform (ACMEMedical):** Architected a multi-tier clinical management platform on Java 21 and Payara Server using JAX-RS, stateless EJBs, and JPA/Hibernate with optimistic locking (`@Version`), RFC 7617 HTTP Basic authentication, and Soteria PBKDF2 credential hashing[cite: 1].
-* **Transit Fleet Operations (PTFMS):** Built an enterprise transit coordination platform using Java Servlets, JDBC PreparedStatement pools, and GoF patterns (Strategy for polymorphic propulsion fuel tracking, Adapter for external GPS feeds, and Observer for maintenance dispatching)[cite: 1].
-* **Enterprise Persistence:** Engineered normalized schemas across MySQL instances with connection pooling, declarative role-based access control, and JUnit 5 / Jersey Client integration suites[cite: 1].
-* **Tech Stack:** Java 21 / 8 | Jakarta EE | EJB | JPA / Hibernate | Payara | Servlets | JDBC | MySQL[cite: 1]
-* **Source:** [View Repository (PTFMS)](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
+A suite of high-availability enterprise applications engineered with strict design patterns and distributed transaction processing capabilities.
+* **Jakarta EE Enterprise Platform (ACMEMedical):** Architected a multi-tier clinical management platform on Java 21 and Payara Server using JAX-RS, stateless EJBs, and JPA/Hibernate with optimistic locking (`@Version`), RFC 7617 HTTP Basic authentication, and Soteria PBKDF2 credential hashing.
+* **Transit Fleet Operations (PTFMS):** Built an enterprise transit coordination platform using Java Servlets, JDBC PreparedStatement pools, and GoF patterns (Strategy for polymorphic propulsion fuel tracking, Adapter for external GPS feeds, and Observer for maintenance dispatching).
+* **Enterprise Persistence:** Engineered normalized schemas across MySQL instances with connection pooling, declarative role-based access control, and JUnit 5 / Jersey Client integration suites.
+* **Tech Stack:** Java 21 / 8 | Jakarta EE | EJB | JPA / Hibernate | Payara | Servlets | JDBC | MySQL
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
 
 ### Banking Analytics Data Warehouse & Risk Default Engine
-A decision-support banking data warehouse modeled on a 3-tier Kimball analytical pattern to ingest, model, and analyze transactional ledgers and forecast credit risk[cite: 1].
-* **High-Volume ETL Architecture:** Engineered SSIS memory-buffered pipelines with upstream physical sort contracts and cascading merge joins to extract, cleanse, and transform $1.05\text{M}+$ financial records and socio-economic metrics[cite: 1].
-* **Predictive Risk Analytics:** Authored multi-level Transact-SQL CTEs, rolling aggregations, and window functions to compute liquidity depletion velocity flags ($>5$ withdrawals $> \$500$), forecasting loan defaults 2–3 months prior to delinquency[cite: 1].
-* **Dimensional Modeling:** Designed star/snowflake schemas in SQL Server with clustered indexing, categorical mapping, and interactive Power BI analytical dashboards[cite: 1].
-* **Tech Stack:** Microsoft SQL Server | T-SQL | SSIS | SSMS | Power BI[cite: 1]
-* **Source:** [View Repository](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
+A decision-support banking data warehouse modeled on a 3-tier Kimball analytical pattern to ingest, model, and analyze transactional ledgers and forecast credit risk.
+* **High-Volume ETL Architecture:** Engineered SSIS memory-buffered pipelines with upstream physical sort contracts and cascading merge joins to extract, cleanse, and transform $1.05\text{M}+$ financial records and socio-economic metrics.
+* **Predictive Risk Analytics:** Authored multi-level Transact-SQL CTEs, rolling aggregations, and window functions to compute liquidity depletion velocity flags ($>5$ withdrawals $> \$500$), forecasting loan defaults 2–3 months prior to delinquency.
+* **Dimensional Modeling:** Designed star/snowflake schemas in SQL Server with clustered indexing, categorical mapping, and interactive Power BI analytical dashboards.
+* **Tech Stack:** Microsoft SQL Server | T-SQL | SSIS | SSMS | Power BI
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
 
 ### SauceDemo Quality Engineering & CI/CD Test Harness
-An enterprise-grade test automation and regression framework designed to evaluate single-page web applications against complex shopping and checkout flows[cite: 1].
-* **DOM Synchronization Engine:** Engineered a Page Object Model (POM) test architecture in Python and Selenium WebDriver, injecting custom JavaScript into React’s internal `_valueTracker` to dispatch synthetic bubbling events and eliminate headless synchronization race conditions[cite: 1].
-* **Dual Automation Engine:** Implemented 22 parameterized Pytest scenarios and 14 keyword-driven Robot Framework specifications with zero implicit waits and explicit condition polling[cite: 1].
-* **Continuous Integration Pipelines:** Configured dual execution pipelines across Jenkins (declarative Jenkinsfile archiving JUnit XML trends) and GitHub Actions with automated failure screenshot capture and interactive HTML test reporting[cite: 1].
-* **Tech Stack:** Python | Selenium WebDriver | Robot Framework | Pytest | Jenkins | GitHub Actions[cite: 1]
-* **Source:** [View Repository](https://github.com/MeetAhalpara/QA-Test-Automation)
+An enterprise-grade test automation and regression framework designed to evaluate single-page web applications against complex shopping and checkout flows.
+* **DOM Synchronization Engine:** Engineered a Page Object Model (POM) test architecture in Python and Selenium WebDriver, injecting custom JavaScript into React’s internal `_valueTracker` to dispatch synthetic bubbling events and eliminate headless synchronization race conditions.
+* **Dual Automation Engine:** Implemented 22 parameterized Pytest scenarios and 14 keyword-driven Robot Framework specifications with zero implicit waits and explicit condition polling.
+* **Continuous Integration Pipelines:** Configured dual execution pipelines across Jenkins (declarative Jenkinsfile archiving JUnit XML trends) and GitHub Actions with automated failure screenshot capture and interactive HTML test reporting.
+* **Tech Stack:** Python | Selenium WebDriver | Robot Framework | Pytest | Jenkins | GitHub Actions
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/QA-Test-Automation)
 
 ---
 
