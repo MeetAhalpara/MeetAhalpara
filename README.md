@@ -39,14 +39,14 @@ A decoupled, multi-tenant inventory control and operational state management pla
 * **Tech Stack:** Node.js | Express.js | MongoDB (WiredTiger) | Jest | Grafana k6 | Postman / Newman
 * **Source:** [Institutional Repository — Access Available by Request]
 
-### NityaGeeta — Scriptural RAG Platform & In-House MLOps Pipeline
-An asynchronous scriptural intelligence engine combining a Next.js 15 App Router frontend with a FastAPI backend, an in-house MLOps evaluation lifecycle, and a PySpark Medallion lakehouse.
-* **Hybrid RAG & Multi-Model Ensemble:** In-memory BM25Okapi search and Reciprocal Rank Fusion (k=60) indexing 5,034 pages, 649 shlokas, and 13,226 vocabulary tokens, arbitrated across a 5-model LLM ensemble with post-generation citation guardrails.
-* **In-House MLOps Lifecycle & SLA Gates:** MLflow experiment tracking logging retrieval accuracy, hallucination indices, and P50/P95 latency; automated Model Registry quality gates blocking promotion below 0.90 groundedness or above 2000ms latency with automated @champion tagging.
-* **Statistical Drift & Telemetry Monitoring:** Continuous drift monitoring running two-sample Kolmogorov-Smirnov tests (p=0.05) and Wasserstein distance calculations (threshold 0.04) against a logged telemetry baseline.
-* **Medallion Lakehouse & PySpark CDC:** PySpark Slowly Changing Dimensions (SCD Type 2) pipeline calculating deterministic SHA-256 row-hashes, feeding a Snowflake Bronze/Silver/Gold medallion warehouse with Dynamic Tables and automated Tasks.
-* **Resilience & Test Verification:** Asynchronous 3-state circuit breaker (5-failure limit, 30s cooldown), chunked Server-Sent Events streaming with reverse-proxy buffer suppression (X-Accel-Buffering: no), and 44 automated Pytest tests passing with 100% pass rate across 5 test suites.
-* **Tech Stack:** FastAPI | Next.js 15 | Python 3.12 | MLflow | Kubeflow Pipelines (KFP v2) | PySpark | Snowflake | PostgreSQL | Redis | Docker | Terraform
+### NityaGeeta — High-Throughput Grounded Scriptural RAG Platform
+An asynchronous scriptural intelligence engine combining a Next.js 15 App Router frontend with a high-throughput FastAPI backend running a hybrid lexical/semantic retrieval pipeline across 5,034 canonical commentary pages.
+* **Hybrid Retrieval Pipeline:** Architected an in-memory lexical BM25Okapi search engine (Robertson-Spärck Jones IDF with document-length normalization) coupled with Reciprocal Rank Fusion (k=60) across 5 weighted datasets (W=3.0 down to W=1.0) indexing 649 unique shlokas and 13,226 vocabulary tokens.
+* **Multi-Model LLM Ensemble & Arbitration:** Asynchronous parallel fan-out across multiple LLM providers (Groq, OpenRouter) arbitrated by an LLM judge model with post-generation ground-truth citation verification.
+* **Resilience & Fault Tolerance:** Implemented an asynchronous 3-state circuit breaker (`CLOSED`, `OPEN`, `HALF-OPEN`) with a 5-failure threshold and 30s cooldown to isolate upstream rate limits, serving responses via chunked Server-Sent Events (SSE) with buffer suppression (`X-Accel-Buffering: no`).
+* **Container Security & Persistence:** Multi-stage Docker deployment running under a dedicated non-root execution user (`appuser`, UID 10001) backed by PostgreSQL session storage with 18-day TTL tokens.
+* **Verification & CI/CD:** Hardened with strict Pydantic v2 input boundary validation, an automated 39-test Pytest verification suite covering citation scrubbers and wire protocols (100% pass rate), and an automated GitHub Actions CI/CD pipeline.
+* **Tech Stack:** FastAPI | Python 3.12 | Next.js 15 | React 19 | PostgreSQL | Redis | Docker | Pytest | Groq API
 * **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/NityaGeeta)
 
 ### Cybersecurity Engineering & Infrastructure Defense Portfolio
