@@ -49,6 +49,16 @@ An asynchronous scriptural intelligence engine combining a Next.js 15 App Router
 * **Tech Stack:** FastAPI | Python 3.12 | Next.js 15 | React 19 | PostgreSQL | Redis | Docker | Pytest | Groq API
 * **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/NityaGeeta)
 
+### AI & MLOps Engineering Suite (Audio Sentiment DJ Bot & SkillChain)
+An applied machine learning operations (MLOps) and intelligence portfolio featuring automated model lifecycle management, statistical data drift monitoring, and deep learning pipelines.
+* **Continuous Audio MLOps Pipeline:** Trained and benchmarked acoustic classification models (Logistic Regression, Decision Trees, K-Nearest Neighbors) across 232,725 historical Spotify tracks with automated 80/20 train/test splitting and StandardScaler serialization parity.
+* **MLflow Tracking & Model Registry:** Integrated automated MLflow experiment tracking logging hyperparameters, confusion matrices, and model accuracy, with an automated Model Registry gateway registering winning candidate models to production stages.
+* **Statistical Data Drift Monitoring:** Engineered continuous covariate shift detection with Evidently AI and SciPy, executing Two-Sample Kolmogorov-Smirnov (KS-test) and Wasserstein distance calculations to export automated HTML and JSON drift diagnostic reports.
+* **Kubeflow Pipelines (KFP v2) DAG:** Compiled a declarative 5-stage Kubeflow Pipeline DAG (`audio_pipeline_dag.yaml`) orchestrating data validation, model retraining, MLflow serialization, and automated drift alerting.
+* **Cryptographic Verification Ledger:** Developed SkillChainLedger, an append-only SHA-256 cryptographic blockchain ledger in Python, coupled with a reactive Streamlit analytics dashboard and deep learning classification modules (IMDB NLP & MNIST neural networks).
+* **Tech Stack:** Python 3.13 | MLflow | Kubeflow Pipelines (KFP v2) | Evidently AI | Scikit-Learn | TensorFlow / Keras | Streamlit | SciPy | Pandas | Pytest
+* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/ai-machine-learning-emerging-tech-projects)
+
 ### Cybersecurity Engineering & Infrastructure Defense Portfolio
 A production-grade cybersecurity engineering suite modeling real-world attack surfaces, executing penetration tests, automating disaster recovery, and enforcing host-hardening baselines across segmented subnets.
 * **Offensive & Defensive Security Operations:** Executed automated DAST fuzzing on Docker microservices via OWASP ZAP reverse-proxies, mapped attack surfaces with Greenbone GVM across full IANA ranges, and executed black-box Metasploit penetration runs against vulnerable Linux daemons.
