@@ -22,6 +22,7 @@ My practical experience spans concurrent async API microservices, distributed en
 | :--- | :--- |
 | **Languages & Runtimes** | Python 3.11–3.13, Java 21 / 8, TypeScript 5.x, JavaScript (ES6+), Kotlin 2.0, SQL, T-SQL, PL/pgSQL, GNU Bash |
 | **Backend & Distributed Systems** | FastAPI, Node.js, Express.js, Java 21 Jakarta EE (EJB, JPA, JAX-RS), Payara Server, Flask, Uvicorn, Asyncio, RESTful APIs |
+| **MLOps & Data Engineering** | MLflow 3.16.1, Kubeflow Pipelines (KFP v2), Evidently AI, Apache Spark (PySpark 3.5), Snowflake (Dynamic Tables & Tasks), Azure Data Factory (ADF v2), Terraform IaC |
 | **Databases & Vector Stores** | PostgreSQL, pgvector (HNSW Indexing), PostGIS, Microsoft SQL Server (SSMS, SSIS), MySQL, MongoDB (WiredTiger), SQLite, Redis |
 | **Cloud, DevOps & Infrastructure** | AWS (EC2, S3, IAM, EventBridge), Docker, Docker Compose, Linux (Ubuntu, Kali, Debian), Nginx, Ansible Core, Git, GitHub Actions, Jenkins |
 | **Testing, Security & Reliability** | Grafana k6, Pytest, Jest, Robot Framework, Selenium WebDriver, Postman / Newman CLI, JUnit 5, OWASP ZAP, Greenbone GVM, Metasploit, Restic |
@@ -38,12 +39,14 @@ A decoupled, multi-tenant inventory control and operational state management pla
 * **Tech Stack:** Node.js | Express.js | MongoDB (WiredTiger) | Jest | Grafana k6 | Postman / Newman
 * **Source:** [Institutional Repository — Access Available by Request]
 
-### NityaGeeta — High-Throughput Grounded Scriptural RAG Platform
-An asynchronous scriptural intelligence engine engineered to eliminate LLM hallucinations across 1,296 pages of printed commentaries through deterministic dual-source retrieval.
-* **Hybrid Retrieval Pipeline:** Architected an in-memory lexical BM25Okapi search engine (Robertson-Spärck Jones IDF with document-length normalization) coupled with Reciprocal Rank Fusion ($k=60$) across 5 weighted datasets ($W=3.0$ down to $W=1.0$) and $O(1)$ citation extraction to ground responses without hallucination.
-* **Resilience & Streaming:** Implemented an asynchronous 3-state circuit breaker (`CLOSED`, `OPEN`, `HALF-OPEN`) with 30s backoff cooldowns to isolate upstream inference rate limits, serving responses via chunked Server-Sent Events (SSE) streaming tokens.
-* **Validation & CI/CD:** Hardened with strict Pydantic v2 boundary models, a 34-test Pytest verification suite covering citation scrubbers and wire protocols, and an automated GitHub Actions CI/CD pipeline.
-* **Tech Stack:** FastAPI | Python 3.12 | Next.js 15 | React 19 | PostgreSQL | Docker | Pytest | Groq API
+### NityaGeeta — Enterprise AI RAG, MLOps & Medallion Lakehouse Platform
+An asynchronous, high-concurrency scriptural intelligence platform and multi-LLM ensemble engineered with an enterprise MLOps lifecycle, statistical telemetry drift detection, and an end-to-end Medallion Lakehouse architecture.
+* **Hybrid Retrieval Pipeline:** Architected an in-memory lexical BM25Okapi search engine (Robertson-Spärck Jones IDF with document-length normalization) coupled with Reciprocal Rank Fusion ($k=60$) across 5 weighted datasets ($W=3.0$ down to $W=1.0$) and $O(1)$ citation extraction to eliminate hallucinations.
+* **Production MLOps Lifecycle & SLA Gates:** Implemented automated MLflow 3.16.1 experiment tracking (P50/P95 latency, hallucination indices, retrieval accuracy), Model Registry automated SLA quality gates (Accuracy $\ge 85\%$, Latency $\le 1.2\text{s}$) promoting validated pipelines to `@champion`, and compiled modular Kubeflow Pipelines (KFP v2) DAGs.
+* **Statistical Distribution Drift Monitoring:** Continuous telemetry monitoring calculating Two-Sample Kolmogorov-Smirnov (KS-test, $\alpha=0.05$) and Wasserstein distance across production query length and response latency distributions, triggering automated alerts on semantic shifts.
+* **Medallion Lakehouse & PySpark CDC:** Multi-hop lakehouse architecture transforming raw query JSON telemetry into structured parquet via PySpark SCD Type 2 CDC with deterministic SHA-256 row-hashing, loaded into Snowflake Bronze/Silver/Gold layers with Dynamic Tables and scheduled Tasks.
+* **Resilience, Streaming & Verification:** Asynchronous 3-state circuit breaker (`CLOSED`, `OPEN`, `HALF-OPEN`) with 30s cooldowns, chunked Server-Sent Events (SSE) streaming, and an expanded 44-test automated Pytest verification suite with 100% pass rate in CI/CD.
+* **Tech Stack:** FastAPI | Python 3.12 | Next.js 15 | React 19 | MLflow 3.16.1 | Kubeflow (KFP v2) | PySpark 3.5 | Snowflake | PostgreSQL | Redis | Docker | Terraform
 * **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/NityaGeeta)
 
 ### Cybersecurity Engineering & Infrastructure Defense Portfolio
