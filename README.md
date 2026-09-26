@@ -39,14 +39,14 @@ A decoupled, multi-tenant inventory control and operational state management pla
 * **Tech Stack:** Node.js | Express.js | MongoDB (WiredTiger) | Jest | Grafana k6 | Postman / Newman
 * **Source:** [Institutional Repository — Access Available by Request]
 
-### NityaGeeta — Enterprise AI RAG, MLOps & Medallion Lakehouse Platform
-An asynchronous, high-concurrency scriptural intelligence platform and multi-LLM ensemble engineered with an enterprise MLOps lifecycle, statistical telemetry drift detection, and an end-to-end Medallion Lakehouse architecture.
-* **Hybrid Retrieval Pipeline:** Architected an in-memory lexical BM25Okapi search engine (Robertson-Spärck Jones IDF with document-length normalization) coupled with Reciprocal Rank Fusion ($k=60$) across 5 weighted datasets ($W=3.0$ down to $W=1.0$) and $O(1)$ citation extraction to eliminate hallucinations.
-* **Production MLOps Lifecycle & SLA Gates:** Implemented automated MLflow 3.16.1 experiment tracking (P50/P95 latency, hallucination indices, retrieval accuracy), Model Registry automated SLA quality gates (Accuracy $\ge 85\%$, Latency $\le 1.2\text{s}$) promoting validated pipelines to `@champion`, and compiled modular Kubeflow Pipelines (KFP v2) DAGs.
-* **Statistical Distribution Drift Monitoring:** Continuous telemetry monitoring calculating Two-Sample Kolmogorov-Smirnov (KS-test, $\alpha=0.05$) and Wasserstein distance across production query length and response latency distributions, triggering automated alerts on semantic shifts.
-* **Medallion Lakehouse & PySpark CDC:** Multi-hop lakehouse architecture transforming raw query JSON telemetry into structured parquet via PySpark SCD Type 2 CDC with deterministic SHA-256 row-hashing, loaded into Snowflake Bronze/Silver/Gold layers with Dynamic Tables and scheduled Tasks.
-* **Resilience, Streaming & Verification:** Asynchronous 3-state circuit breaker (`CLOSED`, `OPEN`, `HALF-OPEN`) with 30s cooldowns, chunked Server-Sent Events (SSE) streaming, and an expanded 44-test automated Pytest verification suite with 100% pass rate in CI/CD.
-* **Tech Stack:** FastAPI | Python 3.12 | Next.js 15 | React 19 | MLflow 3.16.1 | Kubeflow (KFP v2) | PySpark 3.5 | Snowflake | PostgreSQL | Redis | Docker | Terraform
+### NityaGeeta — Scriptural RAG Platform & In-House MLOps Pipeline
+An asynchronous scriptural intelligence engine combining a Next.js 15 App Router frontend with a FastAPI backend, an in-house MLOps evaluation lifecycle, and a PySpark Medallion lakehouse.
+* **Hybrid RAG & Multi-Model Ensemble:** In-memory BM25Okapi search and Reciprocal Rank Fusion (k=60) indexing 5,034 pages, 649 shlokas, and 13,226 vocabulary tokens, arbitrated across a 5-model LLM ensemble with post-generation citation guardrails.
+* **In-House MLOps Lifecycle & SLA Gates:** MLflow experiment tracking logging retrieval accuracy, hallucination indices, and P50/P95 latency; automated Model Registry quality gates blocking promotion below 0.90 groundedness or above 2000ms latency with automated @champion tagging.
+* **Statistical Drift & Telemetry Monitoring:** Continuous drift monitoring running two-sample Kolmogorov-Smirnov tests (p=0.05) and Wasserstein distance calculations (threshold 0.04) against a logged telemetry baseline.
+* **Medallion Lakehouse & PySpark CDC:** PySpark Slowly Changing Dimensions (SCD Type 2) pipeline calculating deterministic SHA-256 row-hashes, feeding a Snowflake Bronze/Silver/Gold medallion warehouse with Dynamic Tables and automated Tasks.
+* **Resilience & Test Verification:** Asynchronous 3-state circuit breaker (5-failure limit, 30s cooldown), chunked Server-Sent Events streaming with reverse-proxy buffer suppression (X-Accel-Buffering: no), and 44 automated Pytest tests passing with 100% pass rate across 5 test suites.
+* **Tech Stack:** FastAPI | Next.js 15 | Python 3.12 | MLflow | Kubeflow Pipelines (KFP v2) | PySpark | Snowflake | PostgreSQL | Redis | Docker | Terraform
 * **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/NityaGeeta)
 
 ### Cybersecurity Engineering & Infrastructure Defense Portfolio
