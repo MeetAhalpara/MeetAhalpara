@@ -4,6 +4,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/meetahalpara/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/MeetAhalpara)
+[![Website](https://img.shields.io/badge/Live_Site-NityaGeeta-orange?style=flat-square&logo=google-chrome)](https://www.nityageeta.tech/)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail)](mailto:Meetahalpara1@gmail.com)
 
 ---
@@ -33,87 +34,88 @@ My practical experience spans concurrent async API microservices, distributed en
 
 ### Full-Scale Inventory & Operations Platform
 A decoupled, multi-tenant inventory control and operational state management platform engineered for strict data isolation and high-concurrency mutation workloads.
-* **Architecture & Storage:** Engineered an Express.js and Node.js REST API with Mongoose ODM, utilizing compound B-tree indexes (`{ ownerUserId: 1, purchased: 1 }`) and resilient multi-stage database bootstrapping with automatic failover from persistent WiredTiger disk storage to in-memory instances under lock contention.
-* **Ownership Enforcement:** Implemented stateless JWT Bearer token authentication with multi-tenant object-level access verification, eliminating unauthorized cross-tenant mutations.
-* **Performance & Verification:** Validated under concurrent stress using Grafana k6 pipelines to guarantee SLAs ($p(95) < 200\text{ms}$, failure rate $< 1\%$ across 100 concurrent VUs) alongside Newman/Postman automated collection regression suites.
-* **Tech Stack:** Node.js | Express.js | MongoDB (WiredTiger) | Jest | Grafana k6 | Postman / Newman
-* **Source:** [Institutional Repository — Access Available by Request]
+- **Architecture & Storage:** Engineered an Express.js and Node.js REST API with Mongoose ODM, utilizing compound B-tree indexes (`{ ownerUserId: 1, purchased: 1 }`) and resilient multi-stage database bootstrapping with automatic failover from persistent WiredTiger disk storage to in-memory instances under lock contention.
+- **Ownership Enforcement:** Implemented stateless JWT Bearer token authentication with multi-tenant object-level access verification, eliminating unauthorized cross-tenant mutations.
+- **Performance & Verification:** Validated under concurrent stress using Grafana k6 pipelines to guarantee SLAs ($p(95) < 200\text{ms}$, failure rate $< 1\%$ across 100 concurrent VUs) alongside Newman/Postman automated collection regression suites.
+- **Tech Stack:** Node.js | Express.js | MongoDB (WiredTiger) | Jest | Grafana k6 | Postman / Newman
+- **Source:** [Institutional Repository — Access Available by Request]
 
 ### NityaGeeta — High-Throughput Grounded Scriptural RAG Platform
 An asynchronous scriptural intelligence engine combining a Next.js 15 App Router frontend with a high-throughput FastAPI backend running a hybrid lexical/semantic retrieval pipeline across 5,034 canonical commentary pages.
-* **Hybrid Retrieval Pipeline:** Architected an in-memory lexical BM25Okapi search engine (Robertson-Spärck Jones IDF with document-length normalization) coupled with Reciprocal Rank Fusion (k=60) across 5 weighted datasets (W=3.0 down to W=1.0) indexing 649 unique shlokas and 13,226 vocabulary tokens.
-* **Multi-Model LLM Ensemble & Arbitration:** Asynchronous parallel fan-out across multiple LLM providers (Groq, OpenRouter) arbitrated by an LLM judge model with post-generation ground-truth citation verification.
-* **Resilience & Fault Tolerance:** Implemented an asynchronous 3-state circuit breaker (`CLOSED`, `OPEN`, `HALF-OPEN`) with a 5-failure threshold and 30s cooldown to isolate upstream rate limits, serving responses via chunked Server-Sent Events (SSE) with buffer suppression (`X-Accel-Buffering: no`).
-* **Container Security & Persistence:** Multi-stage Docker deployment running under a dedicated non-root execution user (`appuser`, UID 10001) backed by PostgreSQL session storage with 18-day TTL tokens.
-* **Verification & CI/CD:** Hardened with strict Pydantic v2 input boundary validation, an automated 39-test Pytest verification suite covering citation scrubbers and wire protocols (100% pass rate), and an automated GitHub Actions CI/CD pipeline.
-* **Tech Stack:** FastAPI | Python 3.12 | Next.js 15 | React 19 | PostgreSQL | Redis | Docker | Pytest | Groq API
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/NityaGeeta)
+- **Live Deployment:** [![Live Site](https://img.shields.io/badge/Live_Site-nityageeta.tech-orange?style=flat&logo=google-chrome)](https://www.nityageeta.tech/)
+- **Hybrid Retrieval Pipeline:** Architected an in-memory lexical BM25Okapi search engine (Robertson-Spärck Jones IDF with document-length normalization) coupled with Reciprocal Rank Fusion (k=60) across 5 weighted datasets (W=3.0 down to W=1.0) indexing 649 unique shlokas and 13,226 vocabulary tokens.
+- **Multi-Model LLM Ensemble & Arbitration:** Asynchronous parallel fan-out across multiple LLM providers (Groq, OpenRouter) arbitrated by an LLM judge model with post-generation ground-truth citation verification.
+- **Resilience & Fault Tolerance:** Implemented an asynchronous 3-state circuit breaker (`CLOSED`, `OPEN`, `HALF-OPEN`) with a 5-failure threshold and 30s cooldown to isolate upstream rate limits, serving responses via chunked Server-Sent Events (SSE) with buffer suppression (`X-Accel-Buffering: no`).
+- **Container Security & Persistence:** Multi-stage Docker deployment running under a dedicated non-root execution user (`appuser`, UID 10001) backed by PostgreSQL session storage with 18-day TTL tokens.
+- **Verification & CI/CD:** Hardened with strict Pydantic v2 input boundary validation, an automated 39-test Pytest verification suite covering citation scrubbers and wire protocols (100% pass rate), and an automated GitHub Actions CI/CD pipeline.
+- **Tech Stack:** FastAPI | Python 3.12 | Next.js 15 | React 19 | PostgreSQL | Redis | Docker | Pytest | Groq API
+- **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/NityaGeeta)
 
 ### AI & MLOps Engineering Suite (Audio Sentiment DJ Bot & SkillChain)
 An applied machine learning operations (MLOps) and intelligence portfolio featuring automated model lifecycle management, statistical data drift monitoring, and deep learning pipelines.
-* **Continuous Audio MLOps Pipeline:** Trained and benchmarked acoustic classification models (Logistic Regression, Decision Trees, K-Nearest Neighbors) across 232,725 historical Spotify tracks with automated 80/20 train/test splitting and StandardScaler serialization parity.
-* **MLflow Tracking & Model Registry:** Integrated automated MLflow experiment tracking logging hyperparameters, confusion matrices, and model accuracy, with an automated Model Registry gateway registering winning candidate models to production stages.
-* **Statistical Data Drift Monitoring:** Engineered continuous covariate shift detection with Evidently AI and SciPy, executing Two-Sample Kolmogorov-Smirnov (KS-test) and Wasserstein distance calculations to export automated HTML and JSON drift diagnostic reports.
-* **Kubeflow Pipelines (KFP v2) DAG:** Compiled a declarative 5-stage Kubeflow Pipeline DAG (`audio_pipeline_dag.yaml`) orchestrating data validation, model retraining, MLflow serialization, and automated drift alerting.
-* **Cryptographic Verification Ledger:** Developed SkillChainLedger, an append-only SHA-256 cryptographic blockchain ledger in Python, coupled with a reactive Streamlit analytics dashboard and deep learning classification modules (IMDB NLP & MNIST neural networks).
-* **Tech Stack:** Python 3.13 | MLflow | Kubeflow Pipelines (KFP v2) | Evidently AI | Scikit-Learn | TensorFlow / Keras | Streamlit | SciPy | Pandas | Pytest
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/ai-machine-learning-emerging-tech-projects)
+- **Continuous Audio MLOps Pipeline:** Trained and benchmarked acoustic classification models (Logistic Regression, Decision Trees, K-Nearest Neighbors) across 232,725 historical Spotify tracks with automated 80/20 train/test splitting and StandardScaler serialization parity.
+- **MLflow Tracking & Model Registry:** Integrated automated MLflow experiment tracking logging hyperparameters, confusion matrices, and model accuracy, with an automated Model Registry gateway registering winning candidate models to production stages.
+- **Statistical Data Drift Monitoring:** Engineered continuous covariate shift detection with Evidently AI and SciPy, executing Two-Sample Kolmogorov-Smirnov (KS-test) and Wasserstein distance calculations to export automated HTML and JSON drift diagnostic reports.
+- **Kubeflow Pipelines (KFP v2) DAG:** Compiled a declarative 5-stage Kubeflow Pipeline DAG (`audio_pipeline_dag.yaml`) orchestrating data validation, model retraining, MLflow serialization, and automated drift alerting.
+- **Cryptographic Verification Ledger:** Developed SkillChainLedger, an append-only SHA-256 cryptographic blockchain ledger in Python, coupled with a reactive Streamlit analytics dashboard and deep learning classification modules (IMDB NLP & MNIST neural networks).
+- **Tech Stack:** Python 3.13 | MLflow | Kubeflow Pipelines (KFP v2) | Evidently AI | Scikit-Learn | TensorFlow / Keras | Streamlit | SciPy | Pandas | Pytest
+- **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/ai-machine-learning-emerging-tech-projects)
 
 ### Cybersecurity Engineering & Infrastructure Defense Portfolio
 A production-grade cybersecurity engineering suite modeling real-world attack surfaces, executing penetration tests, automating disaster recovery, and enforcing host-hardening baselines across segmented subnets.
-* **Offensive & Defensive Security Operations:** Executed automated DAST fuzzing on Docker microservices via OWASP ZAP reverse-proxies, mapped attack surfaces with Greenbone GVM across full IANA ranges, and executed black-box Metasploit penetration runs against vulnerable Linux daemons.
-* **Continuous Disaster Recovery:** Architected an automated zero-data-loss PostgreSQL backup pipeline streaming `pg_dump` directly into an encrypted, content-addressable Restic repository via non-interactive nightly Cron jobs (AES-256 at rest, SHA-256 deduplication).
-* **Host Hardening & Auditing:** Automated declarative host hardening using Ansible Core to enforce default-deny UFW perimeters (ports 22/8080), auto-generate X.509 TLS PKI certificates, and establish AIDE SHA-256 tripwires across critical paths (`/etc/passwd`, `/etc/shadow`, `/etc/ssh/sshd_config`).
-* **Threat Modeling & Governance:** Authored enterprise STRIDE threat models for autonomous transport architectures (mTLS, HSM, CAN Bus isolation) and drafted PHIPA-compliant healthcare IAM/MDM governance frameworks.
-* **Tech Stack:** Kali Linux | Ubuntu Server | Ansible Core | PostgreSQL | Restic | OWASP ZAP | OpenVAS / GVM | Metasploit | Docker
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/cybersecurity-engineering-defense-portfolio)
+- **Offensive & Defensive Security Operations:** Executed automated DAST fuzzing on Docker microservices via OWASP ZAP reverse-proxies, mapped attack surfaces with Greenbone GVM across full IANA ranges, and executed black-box Metasploit penetration runs against vulnerable Linux daemons.
+- **Continuous Disaster Recovery:** Architected an automated zero-data-loss PostgreSQL backup pipeline streaming `pg_dump` directly into an encrypted, content-addressable Restic repository via non-interactive nightly Cron jobs (AES-256 at rest, SHA-256 deduplication).
+- **Host Hardening & Auditing:** Automated declarative host hardening using Ansible Core to enforce default-deny UFW perimeters (ports 22/8080), auto-generate X.509 TLS PKI certificates, and establish AIDE SHA-256 tripwires across critical paths (`/etc/passwd`, `/etc/shadow`, `/etc/ssh/sshd_config`).
+- **Threat Modeling & Governance:** Authored enterprise STRIDE threat models for autonomous transport architectures (mTLS, HSM, CAN Bus isolation) and drafted PHIPA-compliant healthcare IAM/MDM governance frameworks.
+- **Tech Stack:** Kali Linux | Ubuntu Server | Ansible Core | PostgreSQL | Restic | OWASP ZAP | OpenVAS / GVM | Metasploit | Docker
+- **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/cybersecurity-engineering-defense-portfolio)
 
 ### ConsultHub — Mobile Application & Geospatial Matching Engine
 A cross-platform professional consulting marketplace featuring vector-based semantic matchmaking, spatial distance filtering, and atomic contract lifecycle workflows.
-* **Mobile Architecture & Rendering:** Solely architected the cross-platform client using React Native (Expo SDK 54) and TypeScript, integrating TanStack Query for cache invalidation and NativeWind UI to eradicate layout shifts.
-* **Semantic & Spatial Discovery:** Integrated client discovery with Supabase PostgreSQL RPCs, combining 384-dimensional pgvector embeddings via HNSW cosine indexing (`vector_cosine_ops`) with PostGIS GiST spatial queries (`ST_DWithin`) and composite scoring algorithms.
-* **Real-Time Communications & Security:** Built a duplex messaging layer backed by Supabase WebSockets, PL/pgSQL database triggers, and database-level idempotent event keys under 100% Row-Level Security (RLS) via isolated `SECURITY DEFINER` procedures.
-* **Tech Stack:** React Native (Expo SDK 54) | TypeScript | Supabase | PostgreSQL | pgvector | PostGIS | TanStack Query
-* **Source:** [Proprietary Architecture — Source Protected under Signed NDA]
+- **Mobile Architecture & Rendering:** Solely architected the cross-platform client using React Native (Expo SDK 54) and TypeScript, integrating TanStack Query for cache invalidation and NativeWind UI to eradicate layout shifts.
+- **Semantic & Spatial Discovery:** Integrated client discovery with Supabase PostgreSQL RPCs, combining 384-dimensional pgvector embeddings via HNSW cosine indexing (`vector_cosine_ops`) with PostGIS GiST spatial queries (`ST_DWithin`) and composite scoring algorithms.
+- **Real-Time Communications & Security:** Built a duplex messaging layer backed by Supabase WebSockets, PL/pgSQL database triggers, and database-level idempotent event keys under 100% Row-Level Security (RLS) via isolated `SECURITY DEFINER` procedures.
+- **Tech Stack:** React Native (Expo SDK 54) | TypeScript | Supabase | PostgreSQL | pgvector | PostGIS | TanStack Query
+- **Source:** [Proprietary Architecture — Source Protected under Signed NDA]
 
 ### Distributed Enterprise Systems (REST-ACMEMedical & PTFMS)
 A suite of high-availability enterprise applications engineered with strict design patterns and distributed transaction processing capabilities.
-* **Jakarta EE Enterprise Platform (ACMEMedical):** Architected a multi-tier clinical management platform on Java 21 and Payara Server using JAX-RS, stateless EJBs, and JPA/Hibernate with optimistic locking (`@Version`), RFC 7617 HTTP Basic authentication, and Soteria PBKDF2 credential hashing (2048 iterations).
-* **Transit Fleet Operations (PTFMS):** Built an enterprise transit coordination platform using Java 8 / Servlets, JDBC PreparedStatement pools, and GoF patterns (Strategy for polymorphic propulsion fuel tracking, Adapter for external GPS feeds, and Observer for maintenance dispatching).
-* **Enterprise Persistence:** Engineered normalized schemas across MySQL instances with connection pooling, declarative role-based access control, and JUnit 5 / Jersey Client integration suites.
-* **Tech Stack:** Java 21 / 8 | Jakarta EE | EJB | JPA / Hibernate | Payara | Servlets | JDBC | MySQL
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
+- **Jakarta EE Enterprise Platform (ACMEMedical):** Architected a multi-tier clinical management platform on Java 21 and Payara Server using JAX-RS, stateless EJBs, and JPA/Hibernate with optimistic locking (`@Version`), RFC 7617 HTTP Basic authentication, and Soteria PBKDF2 credential hashing (2048 iterations).
+- **Transit Fleet Operations (PTFMS):** Built an enterprise transit coordination platform using Java 8 / Servlets, JDBC PreparedStatement pools, and GoF patterns (Strategy for polymorphic propulsion fuel tracking, Adapter for external GPS feeds, and Observer for maintenance dispatching).
+- **Enterprise Persistence:** Engineered normalized schemas across MySQL instances with connection pooling, declarative role-based access control, and JUnit 5 / Jersey Client integration suites.
+- **Tech Stack:** Java 21 / 8 | Jakarta EE | EJB | JPA / Hibernate | Payara | Servlets | JDBC | MySQL
+- **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/Public-Transport-Fleet-Management-System)
 
 ### Banking Analytics Data Warehouse & Risk Default Engine
 A decision-support banking data warehouse modeled on a 3-tier Kimball analytical pattern to ingest, model, and analyze transactional ledgers and forecast credit risk.
-* **High-Volume ETL Architecture:** Engineered SSIS memory-buffered pipelines with upstream physical sort contracts and cascading merge joins to extract, cleanse, and transform $1.05\text{M}+$ financial records and regional socio-economic indicators.
-* **Predictive Risk Analytics:** Authored multi-level Transact-SQL CTEs, rolling aggregations, and window functions to compute liquidity depletion velocity flags ($>5$ withdrawals $> \$500$), forecasting loan defaults 2–3 months prior to delinquency.
-* **Dimensional Modeling:** Designed star/snowflake schemas in SQL Server with clustered indexing, categorical domain mapping, and interactive Power BI analytical dashboards.
-* **Tech Stack:** Microsoft SQL Server | T-SQL | SSIS | SSMS | Power BI
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
+- **High-Volume ETL Architecture:** Engineered SSIS memory-buffered pipelines with upstream physical sort contracts and cascading merge joins to extract, cleanse, and transform $1.05\text{M}+$ financial records and regional socio-economic indicators.
+- **Predictive Risk Analytics:** Authored multi-level Transact-SQL CTEs, rolling aggregations, and window functions to compute liquidity depletion velocity flags ($>5$ withdrawals $> \$500$), forecasting loan defaults 2–3 months prior to delinquency.
+- **Dimensional Modeling:** Designed star/snowflake schemas in SQL Server with clustered indexing, categorical domain mapping, and interactive Power BI analytical dashboards.
+- **Tech Stack:** Microsoft SQL Server | T-SQL | SSIS | SSMS | Power BI
+- **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/Banking-Analytics-Data-Warehouse)
 
 ### SauceDemo Quality Engineering & CI/CD Test Harness
 An enterprise-grade test automation and regression framework designed to evaluate single-page web applications against complex shopping and checkout flows.
-* **DOM Synchronization Engine:** Engineered a Page Object Model (POM) test architecture in Python and Selenium WebDriver, injecting custom JavaScript into React’s internal `_valueTracker` to dispatch synthetic bubbling `input` and `change` events and eliminate headless synchronization race conditions.
-* **Dual Automation Engine:** Implemented 22 parameterized Pytest scenarios and 14 keyword-driven Robot Framework specifications with zero implicit waits and explicit condition polling.
-* **Continuous Integration Pipelines:** Configured dual execution pipelines across Jenkins (declarative Jenkinsfile archiving JUnit XML trends) and GitHub Actions with automated failure screenshot capture and interactive HTML test reporting.
-* **Tech Stack:** Python | Selenium WebDriver | Robot Framework | Pytest | Jenkins | GitHub Actions
-* **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/QA-Test-Automation)
+- **DOM Synchronization Engine:** Engineered a Page Object Model (POM) test architecture in Python and Selenium WebDriver, injecting custom JavaScript into React’s internal `_valueTracker` to dispatch synthetic bubbling `input` and `change` events and eliminate headless synchronization race conditions.
+- **Dual Automation Engine:** Implemented 22 parameterized Pytest scenarios and 14 keyword-driven Robot Framework specifications with zero implicit waits and explicit condition polling.
+- **Continuous Integration Pipelines:** Configured dual execution pipelines across Jenkins (declarative Jenkinsfile archiving JUnit XML trends) and GitHub Actions with automated failure screenshot capture and interactive HTML test reporting.
+- **Tech Stack:** Python | Selenium WebDriver | Robot Framework | Pytest | Jenkins | GitHub Actions
+- **Source:** [![Repository](https://img.shields.io/badge/View-Repository-24292e?style=flat&logo=github)](https://github.com/MeetAhalpara/QA-Test-Automation)
 
 ---
 
 ## Education & Credentials
 
 ### Academic Foundations
-* **Algonquin College** (Ottawa, ON)
+- **Algonquin College** (Ottawa, ON)
   * Advanced Diploma in Computer Programming and Analysis (AAL 01–06)
   * Cumulative GPA: 3.52 / 4.00 | Multi-Term Dean's Honours List
-* **Sir Bhavsinhji Polytechnic Institute** (Gujarat, India)
+- **Sir Bhavsinhji Polytechnic Institute** (Gujarat, India)
   * Diploma in Information Technology
   * Cumulative GPA: 7.91 / 10.0 CGPA (First Class with Distinction)
 
 ### Professional Certifications
-* AWS Certified Cloud Practitioner (CLF-C02) — In Progress
-* AWS Educate – Introduction to Cloud 101
-* Microsoft – Describe Cloud Computing Principles
-* LinkedIn Learning – Software Architecture Patterns
+- AWS Certified Cloud Practitioner (CLF-C02) — In Progress
+- AWS Educate – Introduction to Cloud 101
+- Microsoft – Describe Cloud Computing Principles
+- LinkedIn Learning – Software Architecture Patterns
