@@ -4,7 +4,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/meetahalpara/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?style=flat-square&logo=github)](https://github.com/MeetAhalpara)
-[![NityaGeeta]](https://www.nityageeta.tech/)
+[![Website](https://img.shields.io/badge/Live_Site-NityaGeeta-orange?style=flat-square&logo=google-chrome)](https://www.nityageeta.tech/)
+[![NityaGeeta](https://img.shields.io/badge/NityaGeeta-orange?style=flat-square&logo=google-chrome)](https://www.nityageeta.tech/)
 [![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail)](mailto:Meetahalpara1@gmail.com)
 
 ---
